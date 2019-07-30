@@ -1,0 +1,467 @@
+/* 顶部 */
+.header {
+	opacity: 0.5;
+	position: fixed;
+}
+
+/* 内容部分 */
+.content_top {
+	width: 100%;
+	height: 320px;
+	background: url(../img/forus-background.png) no-repeat;
+
+
+}
+
+/* <!-- 图片上的文字内容 --> */
+.text {
+	/* position: absolute;
+	left: 6%;
+	top: 13%; */
+	padding-top: 105px;
+	margin: auto;
+	padding-bottom: 63px;
+}
+
+.text ul {
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+.text li {
+	margin-right: 30px;
+	font-size: 30px;
+}
+
+.nav a:hover {
+	padding: 10px;
+	border-bottom: 3px solid #ff852b;
+}
+
+/* 橙芽数据模式 */
+.data {
+	width: 100%;
+	height: 200px;
+
+}
+
+.line {
+	width: 20px;
+	height: 10px;
+	background-color: #ff852b;
+	margin-top: 20px;
+
+}
+
+h3 {
+	font-size: 20px;
+	color: #000000;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.data p {
+	font-size: 14px;
+	color: #CCCCCC;
+	margin-bottom: 20px;
+}
+
+/* 数据*/
+.year {
+	width: 100%;
+	height: 100px;
+	/* background-color: #DFE1E8; */
+	box-shadow: 5px 5px 5px 5px #CCCCCC;
+	border-radius: 10px;
+	border: 1px solid #f9f9f9;
+	display: flex;
+
+
+}
+
+.year p:first-child {
+	color: #ee6601;
+	font-size: 30px;
+	margin: 0;
+
+}
+
+.year p:last-child {
+	color: #CCCCCC;
+	font-size: 10px;
+}
+
+.year_1,
+.year_2,
+.year_3,
+.year_4 {
+	flex: 1;
+	margin: auto;
+	padding: 15px;
+	padding-left: 10%;
+
+}
+
+/* 橙芽网络 */
+.internet {
+	/* width: 200%; */
+	height: 285px;
+	background-color: #edeef0;
+	margin-top: 30px;
+	display: flex;
+	word-break: keep-all;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.page-one {
+	display: flex;
+}
+
+.cywl {
+	width: 300px;
+	/* height: 200px; */
+	padding: 5px;
+	flex: 1;
+	margin-right: 50px;
+	/* margin-left: 105px; */
+}
+
+.cywl .line {
+	margin-top: 10px;
+}
+
+.cywl h3 {
+	color: #000000;
+	font-size: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.cywl p {
+	color: #000000;
+	font-size: 13px;
+	padding-bottom: 10px;
+}
+
+.cywl img {
+	width: 300px;
+	height: 125px;
+}
+
+/* 橙芽办公区域 */
+.page-one {
+	display: flex;
+}
+
+.mypic-1 img,
+.mypic-2 img {
+	width: 500px;
+	height: 200px;
+}
+
+.mypic-1 {
+	flex: 1;
+	padding-left: 120px;
+	padding-top: 30px;
+
+}
+
+.mypic-2 {
+	flex: 1;
+	padding-left: 120px;
+	padding-top: 30px;
+}
+
+.page-two {
+	display: flex;
+}
+
+.mypic-3,
+.mypic-4,
+.mypic-5 {
+	flex: 1;
+	margin-top: 30px;
+	margin-left: 120px;
+}
+
+.mypic-3 img,
+.mypic-4 img,
+.mypic-5 img {
+	width: 500px;
+	height: 200px;
+}
+
+.pagination {
+	margin: auto;
+	position: absolute;
+	left: 50%;
+	top: 84%;
+}
+
+.pagination li {
+	margin: 10px;
+	color: #000000;
+}
+.pagination li:nth-child(3) {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.pagination p {
+	color: #000000;
+}
+
+
+/* 文字描述 */
+.wordscrption {
+	width: 180px;
+	height: 150px;
+	background-color: #606266;
+	position: absolute;
+	left: 35%;
+	top: 70%;
+	overflow-y: scroll;
+	margin: 5px;
+	/* display: none; */
+}
+
+/*滚动条样式*/
+.wordscrption::-webkit-scrollbar {
+	width: 4px;
+	/*height: 4px;*/
+}
+
+.wordscrption::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+	background: rgba(0, 0, 0, 0.2);
+}
+
+.wordscrption::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+	border-radius: 0;
+	background: rgba(0, 0, 0, 0.1);
+
+}
+
+.wordscrption p {
+	text-align: justify;
+	font-size: 10px;
+	margin: 10px;
+}
+
+
+/* 品牌文化 */
+
+.brand p {
+	font-size: 14px;
+	color: #CCCCCC;
+	margin-bottom: 20px;
+}
+
+.culture {
+	width: 100%;
+	/* height: 500px; */
+	/* background: #00BFFF; */
+	display: flex;
+	margin-top: 80px;
+	margin-bottom: 50px;
+
+}
+
+.qysm img, .qyzz img, .jyln img, .qyjs img {
+	width: 130px;
+	height: 130px;
+	position: absolute;
+	left: 21%;
+	top: 100%;
+}
+
+
+
+.qyzz img {
+	left: 38%;
+}
+
+.jyln img {
+	left: 55%;
+
+}
+
+.qyjs img {
+	left: 72%;
+}
+
+.qysm, .qyzz, .jyln, .qyjs {
+	flex: 1;
+	width: 200px;
+	height: 200px;
+	background-color: #FFFFFF;
+	box-shadow: 5px 5px 5px 5px #CCCCCC;
+	border-radius: 10px;
+	padding: 30px;
+	margin-right: 100px;
+}
+
+.qysm h3, .qyzz h3, .jyln h3, .qyjs h3 {
+	text-align: center;
+	margin-top: 70px;
+}
+
+.qysm p, .qyzz p, .jyln p, .qyjs p {
+	color: #000000;
+}
+
+.qyjs {
+	margin-right: 0;
+}
+
+
+/* 企业优势 */
+.advantage {
+	width: 100%;
+	height: 430px;
+	background-color: #f3f3f3;
+	word-break: keep-all;
+    white-space: nowrap;
+    /* overflow: hidden; */
+}
+
+.advantage-top {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+/* 企业优势右侧文字 */
+.advantage .line {
+	margin-left: 1180px;
+}
+
+.advantage h3 {
+	text-align: right;
+}
+
+.advantage p {
+	color: gainsboro;
+	text-align: right;
+}
+
+/* 下 主体部分 */
+.advantage-bottom {
+	margin-top: 10px;
+	width: 100%;
+	/* height: 300px; */
+}
+
+.advantage-right {
+	width: 320px;
+	/* height: 340px; */
+	/* background-color: #CC8CB1; */
+	padding-bottom: 20px;
+}
+
+/* 文字区域 */
+.advantage-right li {
+	padding-top: 20px;
+}
+
+.advantage-right li h4:hover, .advantage-right p:hover {
+	color: #ff852b;
+}
+
+.advantage-right h4 {
+	text-align: right;
+	color: #000000;
+	padding-bottom: 10px;
+}
+
+.advantage-right p {
+	color: #CCCCCC;
+}
+
+.jiantou {
+	margin-top: 10px;
+	margin-left: 163px;
+}
+
+.jiantou li {
+	font-size: 20px;
+	margin-right: 20px;
+	color: #CCCCCC;
+}
+
+.jiantou li:last-child{
+	color: #000000;
+}
+
+/* 左侧图片 */
+.pic-1, .pic-2, .pic-3 {
+	width: 400px;
+	height: 280px;
+	margin-right: 40px;
+}
+
+.pic-1 img, .pic-2 img, .pic-3 img {
+	width: 100%;
+	height: 100%;
+}
+
+.pic-3 {
+	position: absolute;
+	left: -5%;
+	top: 150%;
+}
+
+/* 合作伙伴 */
+
+.partner {
+	width: 100%;
+	margin-top: 100px;
+}
+
+.partner-top {
+	width: 100%;
+	height: 100px;
+	margin-top: 30px;
+	/* background-color: #A300F3; */
+}
+.partner-top p {
+	color: #CCCCCC;
+}
+
+.partner-bottom {
+	width: 100%;
+}
+
+.partner-bottom ul {
+	display: flex;
+	margin-bottom: 20px;
+}
+.partner-bottom li {
+	width: 200px;
+	height: 130px;
+	flex: 1;
+	text-align: center;
+	line-height: 200px;
+	margin-right: 20px;
+}
+
+.partner-bottom li:last-child {
+	margin-right: 0;
+}
+
+.partner-bottom li:hover {
+	box-shadow: 5px 5px 5px 5px #CCCCCC;
+}
+
+.partner-bottom img {
+	width: 50%;
+	height: 50%;
+}
+.partner-bottom ul:nth-child(2) li:first-child img {
+	width: 70%;
+	height: 70%;
+	
+}
+

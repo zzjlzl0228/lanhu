@@ -1,0 +1,158 @@
+.header {
+	opacity: 0.5;
+	position: fixed;
+}
+
+/* 服务介绍内容部分  */
+.service-content {
+	width: 100%;
+	height: 356px;
+	background: url(../img/service-back.png) no-repeat;
+}
+
+.text {
+	padding-top: 80px;
+	margin: auto;
+	padding-bottom: 50px;
+}
+
+.text ul {
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+.text li {
+	margin-right: 30px;
+	font-size: 30px;
+}
+
+
+.nav ul {
+  margin-top: 50px;
+}
+
+.nav a {
+  color: #ffffff;
+  font-size: 30px;
+  padding-bottom: 3px;
+}
+
+
+.line {
+  width: 80px;
+  height: 4px;
+  background-color: #ff852b;
+  margin-top: 20px;
+
+}
+
+.content-top {
+	width: 100%;
+	height: 280px;
+	display: flex;
+	
+}
+
+.content-top-1, .content-top-2, .content-top-3 {
+	flex: 1;
+	width: 365px;
+	height: 164px;
+	background-color: #FFFFFF;
+	border: 1px solid #CCCCCC;
+	border-radius: 5px;
+	margin-right: 30px;
+}
+.content-top-3 {
+	margin-right: 0;
+}
+
+.zhuanzhu {
+	width: 300px;
+	height: 146px;
+	/* background-color: #ADFF2F; */
+	margin: 35px;
+}
+
+.zz-right {
+	width: 210px;
+	height: 216px;
+	margin-left: 10px;
+}
+.zz-right h4 {
+	color: #000000;
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+
+.zz-right p {
+	font-size: 14px;
+	color: #000000;
+}
+
+/* 企业网站建设 */
+.wzjs {
+	width: 100%;
+
+}
+.wzjs-left {
+	width: 50%;
+}
+.wzjs-left img{
+	width: 80%;
+	height: 100%;
+}
+
+.wzjs-right {
+	width: 50%;
+	/* height: 500px; */
+	
+}
+
+.wzjs-right h3 {
+	color: #000000;
+	font-size: 30px;
+	margin-top: 50px;
+	
+}
+
+.wzjs-right ul {
+	margin-top: 50px;
+}
+
+.wzjs-right li {
+	margin-bottom: 20px;
+}
+
+.wzjs-right p {
+	color: #000000;
+	font-size: 14px;
+}
+
+/* APP开发 */
+.app-right {
+	width: 50%;
+	height: 500px;
+	
+}
+
+.app-right h3 {
+	color: #000000;
+	font-size: 30px;
+	margin-top: 50px;
+	text-align: right;
+	
+}
+
+.app-right ul {
+	margin-top: 50px;
+}
+
+.app-right li {
+	margin-bottom: 20px;
+	text-align: right;
+}
+
+.app-right p {
+	color: #000000;
+	font-size: 14px;
+}

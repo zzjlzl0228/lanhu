@@ -1,0 +1,259 @@
+.header {
+	opacity: 0.5;
+	position: fixed;
+}
+/* 项目案例 */
+/* 内容区域   背景图 */
+
+.anli-content {
+  width: 100%;
+  height: 356px;
+  background: url(../img/background.png) no-repeat;
+}
+
+/* 背景图上的文字字 */
+.text {
+  padding-top: 105px;
+  margin: auto;
+  padding-bottom: 63px;
+}
+
+.text p {
+  font-size: 40px;
+  color: white;
+}
+.text span {
+  color: #ff852b;
+  font-size: 40px;
+}
+
+.nav ul {
+  margin-top: 50px;
+}
+
+.nav a {
+  color: #ffffff;
+  font-size: 30px;
+  padding-bottom: 3px;
+}
+
+
+.line {
+  width: 80px;
+  height: 4px;
+  background-color: #ff852b;
+  margin-top: 20px;
+
+}
+
+/* 企业网站建设 */
+.website {
+  padding-top: 40px;
+  width: 100%;
+  /* height: 500px; */
+}
+
+.web-left {
+  width: 50%;
+  height: 135px;
+}
+.web-left .line {
+ 	width: 20px;
+ 	height: 10px;
+ 	background-color: #ff852b;
+ 	margin-top: 20px;
+}
+
+h3 {
+  font-size: 20px;
+  color: #000000;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.web-left p {
+  font-size: 14px;
+  color: #CCCCCC;
+  margin-bottom: 20px;
+}
+
+.web-right {
+  /* width: 20%; */
+  height: 135px;
+  /* background-color: #ff852b; */
+}
+
+.web-right li {
+	margin-right: 70px;
+}
+.web-right li:last-child {
+	margin-right: 0;
+}
+.web-right li a {
+  color: grey;
+  font-size: 30px;
+}
+
+.web-right .aft a, .web-right .bef a {
+	color: black;
+}
+
+.web-right p {
+	padding-top: 7px;
+	color: #98A6AD;
+}
+
+.two li {
+	margin-right: 13px;
+}
+
+/* 网站建设内容部分 */
+.web-content {
+	width: 100%;
+	height: 300px;
+	/* background-color: #CC8CB1; */
+	margin-top: 135px;
+	display: flex;
+}
+
+.cactus, .futuristic, .luckin {
+	width: 365px;
+	height: 245px;
+	margin-right: 11px;
+	background-color: #e9eef2;
+	border-radius: 10px;
+	flex: 1;
+	text-align: center;
+	/* line-height: 245px; */
+
+}
+.cactus img,.futuristic img, .luckin img {
+	width: 70%;
+	height: 70%;
+	margin-top: 30px;
+}
+.futuristic {
+	
+	background-color: #eac9bc;
+	
+}
+.luckin {
+	margin-right: 0;
+	background-color: #d6e0e1;
+	
+}
+.web-content .textbox {
+	width: 102px;
+	height: 36px;
+	background-color: #FFFFFF;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	position: absolute;
+	left: 21%;
+	top: 75%;
+	color: black;
+	line-height: 36px;
+}
+.futuristic .textbox {
+	left: 43%;
+}
+.luckin .textbox {
+	left: 64%;
+	background-color: #ff852b;
+	color: white;
+}
+
+/* APP开发 */
+.app-left .line {
+ 	width: 20px;
+ 	height: 10px;
+ 	background-color: #ff852b;
+ 	margin-top: 20px;
+}
+
+.app-left p {
+  font-size: 14px;
+  color: #CCCCCC;
+  margin-bottom: 20px;
+}
+
+.app-right ul {
+	padding-top: 35px;
+}
+.app-right li {
+	margin-right: 20px;
+}
+.app-right li:last-child {
+	margin-right: 0;
+}
+.app-right li a {
+  color: grey;
+  font-size: 30px;
+}
+.app-right li:last-child a {
+	color: #000000;
+}
+.app-right p {
+	padding-top: 7px;
+	color: #98A6AD;
+}
+
+/* app内容部分 */
+.app-content {
+	width: 100%;
+	height: 300px;
+	margin-top: 135px;
+	display: flex;
+}
+.vr, .yicx, .water {
+	width: 365px;
+	height: 245px;
+	margin-right: 11px;
+	flex: 1;
+
+
+}
+.vr img,.yicx img, .water img {
+	width: 100%;
+	height: 100%;
+	margin-top: 10px;
+	border-radius: 10px;
+	
+}
+
+.app-content .textbox {
+	width: 102px;
+	height: 36px;
+	background-color: #FFFFFF;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	position: absolute;
+	left: 20%;
+	top: 120%;
+	color: black;
+	line-height: 36px;
+	text-align: center;
+}
+.yicx .textbox {
+	left: 43%;
+}
+.water .textbox {
+	left: 64%;
+	background-color: #ff852b;
+	color: white;
+}
+
+/* 小程序内容部分 */
+.vr-2 .textbox {
+	top: 163%;
+	left: 19.5%;
+}
+.lzsh .textbox {
+	top: 163%;
+	left: 40.5%;
+}
+.interface .textbox {
+	top: 163%;
+	left: 64%;
+	
+} 
