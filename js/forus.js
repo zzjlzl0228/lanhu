@@ -1,14 +1,26 @@
 // 鼠标进入图片显示相应提示
-var tips = document.querySelector('.wordscrption');
-var mypic1 = document.querySelector('.mypic-1')
-mypic1.onmouseenter = function(e) {
-	e.stopPropagation();
-	
-	tips.style.display = 'block';
-}
-mypic1.onmouseleave = function(e) {
-	e.stopPropagation();
-	tips.style.display = 'none';
-}
 
+$('.cywl').bind({
+	'mouseenter':function(){
+		$('.wordscrption').css('display','block')
+	},
+	'mouseleave':function() {
+		$('.wordscrption').css('display','none')
+	}
+})
+$('.mypic-1').bind({
+	'mouseenter':function(){
+		$('.beizhu').css('display','block')
+	},
+	'mouseleave':function() {
+		$('.beizhu').css('display','none')
+	}
+})
 
+// 合作伙伴
+$('.baidu').hover(function(){
+	$(this).attr("src","../img/about_logo1_1_img.png")
+})
+
+// 品牌文化
+$('.culture').find('div').

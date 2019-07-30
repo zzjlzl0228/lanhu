@@ -105,8 +105,9 @@ h3 {
 /* 橙芽网络 */
 .internet {
 	/* width: 200%; */
-	height: 285px;
-	background-color: #edeef0;
+	height: 310px;
+	/* background-color: #edeef0; */
+	background: url(../img/about_bg3_img.png) 1920px 285px;
 	margin-top: 30px;
 	display: flex;
 	word-break: keep-all;
@@ -149,6 +150,8 @@ h3 {
 	height: 125px;
 }
 
+
+
 /* 橙芽办公区域 */
 .page-one {
 	display: flex;
@@ -157,7 +160,7 @@ h3 {
 .mypic-1 img,
 .mypic-2 img {
 	width: 500px;
-	height: 200px;
+	height: 230px;
 }
 
 .mypic-1 {
@@ -166,7 +169,19 @@ h3 {
 	padding-top: 30px;
 
 }
-
+.beizhu {
+	width: 136px;
+	height: 52px;
+	background-color: #FF852B;
+	border-radius: 5px;
+	position: absolute;
+	left: 65%;
+	top: 65%;
+	color: #fff;
+	text-align: center;
+	line-height: 52px;
+	display: none;
+}
 .mypic-2 {
 	flex: 1;
 	padding-left: 120px;
@@ -196,7 +211,7 @@ h3 {
 	margin: auto;
 	position: absolute;
 	left: 50%;
-	top: 84%;
+	top: 86.5%;
 }
 
 .pagination li {
@@ -219,11 +234,11 @@ h3 {
 	height: 150px;
 	background-color: #606266;
 	position: absolute;
-	left: 35%;
+	left: 30%;
 	top: 70%;
 	overflow-y: scroll;
 	margin: 5px;
-	/* display: none; */
+	display: none;
 }
 
 /*滚动条样式*/
@@ -267,42 +282,50 @@ h3 {
 	display: flex;
 	margin-top: 80px;
 	margin-bottom: 50px;
-
+	
 }
-
+.qysm, .qyzz, .jyln, .qyjs {
+	position: relative;
+	flex: 1;
+	width: 200px;
+	height: 250px;
+	background-color: #FFFFFF;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	padding: 30px;
+	margin-right: 100px;
+	box-sizing: border-box;
+	box-shadow: 5px 5px 5px 5px #CCCCCC;
+	
+}
 .qysm img, .qyzz img, .jyln img, .qyjs img {
 	width: 130px;
 	height: 130px;
 	position: absolute;
 	left: 21%;
-	top: 100%;
+	top: -23%;
 }
 
+.qysm:hover,.qyzz:hover, .jyln:hover, .qyjs:hover {
+	border-bottom: 3px solid #FF852B;
+	
+}
 
 
 .qyzz img {
-	left: 38%;
+	left: 23%;
 }
 
 .jyln img {
-	left: 55%;
+	left: 22%;
 
 }
 
 .qyjs img {
-	left: 72%;
+	left: 22%;
 }
 
-.qysm, .qyzz, .jyln, .qyjs {
-	flex: 1;
-	width: 200px;
-	height: 200px;
-	background-color: #FFFFFF;
-	box-shadow: 5px 5px 5px 5px #CCCCCC;
-	border-radius: 10px;
-	padding: 30px;
-	margin-right: 100px;
-}
+
 
 .qysm h3, .qyzz h3, .jyln h3, .qyjs h3 {
 	text-align: center;
@@ -400,17 +423,19 @@ h3 {
 	width: 400px;
 	height: 280px;
 	margin-right: 40px;
+	
 }
 
 .pic-1 img, .pic-2 img, .pic-3 img {
 	width: 100%;
 	height: 100%;
+	border-radius: 5px;
 }
 
 .pic-3 {
 	position: absolute;
 	left: -5%;
-	top: 150%;
+	top: 152%;
 }
 
 /* 合作伙伴 */
@@ -456,12 +481,36 @@ h3 {
 }
 
 .partner-bottom img {
-	width: 50%;
-	height: 50%;
-}
-.partner-bottom ul:nth-child(2) li:first-child img {
-	width: 70%;
-	height: 70%;
-	
+	width: 100%;
+	height: 100%;
 }
 
+.tengxun img {
+	width: 70%;
+	height: 60%;
+}
+
+.baidu:hover {
+	content: url(../img/about_logo1_1_img.png);
+}
+.zhilian:hover {
+	content: url(../img/about_logo2_2_img.png);
+}
+.tengxun:hover {
+	content: url(../img/about_logo3_1_img.png);
+}
+.ydzx:hover {
+	content: url(../img/about_logo4_1_img.png);
+}
+.ali:hover {
+	content: url(../img/about_logo5_1_img.png);
+}
+.tc:hover {
+	content: url(../img/about_logo6_1_img.png);
+}
+.huawei:hover {
+	content: url(../img/about_logo7_1_img.png);
+}
+.youku:hover {
+	content: url(../img/about_logo8_1_img.png);
+}

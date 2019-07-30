@@ -124,6 +124,7 @@ h3 {
 	border-radius: 10px;
 	flex: 1;
 	text-align: center;
+	position: relative;
 	/* line-height: 245px; */
 
 }
@@ -149,16 +150,16 @@ h3 {
 	border: 1px solid #ccc;
 	border-radius: 10px;
 	position: absolute;
-	left: 21%;
-	top: 75%;
+	left: 16%;
+	top: 90%;
 	color: black;
 	line-height: 36px;
 }
-.futuristic .textbox {
+/* .futuristic .textbox {
 	left: 43%;
-}
+} */
 .luckin .textbox {
-	left: 64%;
+
 	background-color: #ff852b;
 	color: white;
 }
@@ -210,7 +211,7 @@ h3 {
 	height: 245px;
 	margin-right: 11px;
 	flex: 1;
-
+	position: relative;
 
 }
 .vr img,.yicx img, .water img {
@@ -228,32 +229,16 @@ h3 {
 	border: 1px solid #ccc;
 	border-radius: 5px;
 	position: absolute;
-	left: 20%;
-	top: 120%;
+	left: 10%;
+	top: 95%;
 	color: black;
 	line-height: 36px;
 	text-align: center;
 }
-.yicx .textbox {
-	left: 43%;
-}
+
 .water .textbox {
-	left: 64%;
+	
 	background-color: #ff852b;
 	color: white;
 }
 
-/* 小程序内容部分 */
-.vr-2 .textbox {
-	top: 163%;
-	left: 19.5%;
-}
-.lzsh .textbox {
-	top: 163%;
-	left: 40.5%;
-}
-.interface .textbox {
-	top: 163%;
-	left: 64%;
-	
-} 
