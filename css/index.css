@@ -3,14 +3,17 @@
 	width: 100%;
 	/* height: 100%; */
 	/* border: 3px solid blue; */
+	position: relative;
 }
+
+
 
 /* 内容部分 */
 .content {
 	width: 100%;
 	height: 919px;
 	background: url('../img/home-black-bg.jpg') no-repeat;
-	position: relative;
+	
 	/* circle2超出部分隐藏 */
 	overflow: hidden;
 }
@@ -31,35 +34,47 @@ canvas {
 .content_center p {
 	position: absolute;
 	left: 18%;
-  top: 45%;
+	top: 45%;
 	font-size: 70px;
 	font-family: courier;
 }
 
 /* 圆点 */
+
 .circle1 {
-	/* border: 1px solid red; */
-	position: absolute;
-	left: 35%;
-	top: 18%;
+	width: 700px;
+	height: 700px;
+	text-align: center;
+	margin: 0 auto;
 
 }
+
 .circle1 img {
-	width: 80%;
-	height: 80%;
+	width: 600px;
+	height: 600px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -300px;
+	margin-left: -300px;
 }
 
 .circle2 {
-
-	position: absolute;
-	left: 21%;
-	top: -12%;
+	width: 1400px;
+	height: 1400px;
+	text-align: center;
+	margin: 0 auto;
 
 }
 
 .circle2 img {
-	width: 150%;
-	height: 150%;
+	width: 1200px;
+	height: 1200px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -600px;
+	margin-left: -600px;
 }
 
 /* 实现图片的旋转 */
@@ -100,17 +115,27 @@ canvas {
 
 /* circle1 与此人circle2中的部分内容 */
 .circle_center {
-
-	position: relative;
-
+	width: 100%;
+	height: 100%;
 }
 
 /* 技术体系 */
+.jstx {
+	width: 280px;
+	height: 190px;
+	position: absolute;
+	left: 30%;
+	top: 70px;
+	z-index: 10;
+}
+/* .jstx #myCanvas {
+	width: 280px;
+	height: 190px;
+} */
 .cc_1 {
 	position: absolute;
-	left: 40%;
-	top: 190px;
-	z-index: 10;
+	left: 50%;
+  top: 130px;
 }
 .cc_1 a {
 	font-size: 12px;
@@ -136,26 +161,46 @@ canvas {
 	border-radius: 50%;
 }
 
-.cc_1 .circle3 {
+.amt .circle3 {
 	left: -7%;
-	background-color: #FFA500;
+	
+	width: 20px;
+	height: 20px;
+	background: #dfe1e8;
+	opacity: 0.3;
+	border-radius: 50%;
+	position: absolute;
+	top: -6px;
+	animation: circle1 3s linear infinite;
 }
-.cc_1 .circle4 {
+
+.amt .circle4 {
 	left: -14%;
+	background-color: #FFA500; 
+	width: 30px;
+	height: 30px;
+	background: #dfe1e8;
+	opacity: 0.3;
+	border-radius: 50%;
+	position: absolute;
+	top: -10px;
+	animation: circle1 3s linear infinite;
+}
+.cc_1 .circle3, .cc_1 .circle4 {
 	background-color: #FFA500;
 }
+
 .cc_2 {
 	position: absolute;
-	left:41%;
-	top: 110px;
-	z-index: 10;
+	left: 53%;
+  top: 77px;
+
 }
 
 .cc_3 {
 	position: absolute;
-	left:34%;
-	top: 85px;
-	z-index: 10;
+	left: 20%;
+  top: 70px;
 }
 .cc_3 a,.cc_4 a {
 	margin-right: 5px;
@@ -163,34 +208,43 @@ canvas {
 
 .cc_4 {
 	position: absolute;
-	left:30%;
-	top: 148px;
-	z-index: 10;
+	left:3%;
+	top: 110px;
+
 }
 
 .cc_5 {
 	position: absolute;
-	left:35%;
-	top: 210px;
-	z-index: 10;
+	left:20%;
+	top: 145px;
+
+}
+.cc_5 img {
+	margin-left: 40px;
 }
 
 
 /* 产品特点 */
-
+.cptd_1 {
+	width: 255px;
+	height: 205px;
+	position: absolute;
+	left: 22%;
+	top: 400px;
+	/* background-color: #CC8CB1; */
+	z-index: 10;
+}
 .cc_one {
 	position: absolute;
-	top: 470px;
-    left: 31%;
-	z-index: 10;
+	top: 100px;
+  left: 50%;
+	
 }
 .cc_one a {
 	font-size: 12px;
-	margin-left: 10px;
-	margin-bottom: 5px;
+	margin-left: 20px;
+	margin-top: -15px;
 	color: white;
-
-
 }
 .cc_one img {
 	width: 10px;
@@ -208,8 +262,8 @@ canvas {
 }
 .cc_two {
 	position: absolute;
-	top: 380px;
-    left: 33%;
+	top: 34px;
+  left: 44%;
 	z-index: 10;
 }
 .circle_center a {
@@ -220,8 +274,8 @@ canvas {
 
 .cc_three {
 	position: absolute;
-	top: 435px;
-    left: 25%;
+	top: 66px;
+  left: 10%;
 	z-index: 10;
 }
 .cc_three a {
@@ -230,16 +284,18 @@ canvas {
 
 .cc_four {
 	position: absolute;
-	top: 510px;
-    left: 28%;
-	z-index: 10;
+	top: 110px;
+  left: 15%;
+	
+}
+.cc_four img {
+	margin-left: 25px;
 }
 
 .cc_five {
 	position: absolute;
-	top: 525px;
-    left: 33%;
-	z-index: 10;
+	top: 150px;
+  left: 65%;
 }
 
 /* 产品特点 */
@@ -247,8 +303,8 @@ canvas {
 	width: 300px;
 	height: 100px;
 	position: absolute;
-	left: 45%;
-    top: 750px;
+	left: 42%;
+  top: 750px;
 	z-index: 10;
 }
 .cc_cp a {
@@ -296,8 +352,12 @@ canvas {
 .cc_znh {
 	position: absolute;
 	left: -80px;
-    bottom: 62px;
+  bottom: 62px;
 
+}
+
+.cc_znh img {
+	margin-left: 25px;
 }
 
 /* 我们的优势 */
@@ -306,7 +366,7 @@ canvas {
 	height: 50px;
 	position: absolute;
 	right: 35%;
-    top: 200px;
+  top: 200px;
 	z-index: 10;
 }
 .ccr_1 a {
@@ -332,7 +392,7 @@ canvas {
 .ccr_2 {
 	position: absolute;
 	right: -50px;
-    top: 49px;
+  top: 49px;
 }
 
 /* 多元信息服务 */
@@ -346,7 +406,7 @@ canvas {
 .ccr_4 {
 	position: absolute;
 	right: -115px;
-    top: -82px;
+  top: -82px;
 }
 
 .ccr_4 img {
@@ -367,7 +427,7 @@ canvas {
 	width: 112px;
 	position: absolute;
 	right: 28%;
-    top: 676px;
+  top: 676px;
 	z-index: 10;
 }
 .ccr_one a {
@@ -394,38 +454,25 @@ canvas {
 .ccr_two {
 	position: absolute;
 	right: 5%;
-    top: -130px;
+  top: -130px;
 	z-index: 10;
 }
 
 .ccr_three {
 	position: absolute;
 	right: -120px;
-    top: -70px;
+  top: -70px;
 	z-index: 10;
 }
 
-.circle3 {
-	width: 20px;
-	height: 20px;
-	background-color: #dfe1e8;
-	opacity: 0.6;
-	border-radius: 50%;
-	position: absolute;
+.ccr_4 .circle3 {
 	left: -5%;
-    top: -5px;
-	animation: circle1 3s linear infinite;
+  top: -5px;
+	
 }
-.circle4 {
-	width: 30px;
-	height: 30px;
-	background: #dfe1e8;
-	opacity: 0.3;
-	border-radius: 50%;
-	position: absolute;
+.ccr_4 .circle4 {
 	left: -9%;
-    top: -10px;
-	animation: circle1 3s linear infinite;
+  top: -10px;
 }
 /* 动画 */
 @-webkit-keyframes circle1{

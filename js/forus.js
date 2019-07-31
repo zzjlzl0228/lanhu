@@ -22,5 +22,13 @@ $('.baidu').hover(function(){
 	$(this).attr("src","../img/about_logo1_1_img.png")
 })
 
+
 // 品牌文化
-$('.culture').find('div').
+$('.culture').find('div').bind({
+	'mouseenter':function(){
+		$(this).stop().animate({top:'-20px'},100)
+	},
+	'mouseleave':function(){
+		$(this).stop().animate({top:'0px'},100)
+	}
+})
