@@ -3,8 +3,8 @@
 	<head>
 		<meta charset="utf-8">
 		<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
-		<title>关于我们</title>
-		<link rel="icon" href="../favicon.ico">
+		<title>橙芽网络-关于我们</title>
+		<link rel="icon" href="../chengy_logo.ico">
 		<link rel="stylesheet" type="text/css" href="../css/forus.css" />
 		<link rel="stylesheet" type="text/css" href="../css/header.css" />
 		<link rel="stylesheet" type="text/css" href="../css/style.css" />
@@ -26,7 +26,11 @@
 							<li class="left">以智取胜</li>
 						</ul>
 						<div class="nav">
-							<ul class="clearfix">
+							<p>网站搭建、APP开发、微信公众号开发、微信小程序开发</p>
+							<div class="line1">
+								
+							</div>
+							<!-- <ul class="clearfix">
 								<li class="left">
 									<a href="#">网站搭建</a>
 								</li>
@@ -39,7 +43,7 @@
 								<li class="left">
 									<a href="#">微信小程序开发</a>
 								</li>
-							</ul>
+							</ul> -->
 						</div>
 					</div>
 
@@ -92,12 +96,12 @@
 								</ul>
 								
 								
-								<img src="../img/about_shuju_img.png">
+								<img src="../img/about_shuju_img.png" >
 								
 							</div>
 
 							<!-- 橙芽办公区域 -->
-							<div class="mypic-1 left">
+							<div class="mypic-1 left" >
 								<img src="../img/about_environment1_img.png" title="办公区域">
 								<div class="beizhu">写字楼内走廊</div>
 							</div>
@@ -105,29 +109,32 @@
 								<img src="../img/mypic-2.jpg">
 							</div>
 						</div>
-						<div class="page-two clearfix">
-							<div class="mypic-3 left">
-								<img src="../img/mypic-3.jpg">
-							</div>
-							<div class="mypic-4 left">
-								<img src="../img/mypic-4.jpg">
-							</div>
-							<div class="mypic-5 left">
-								<img src="../img/mypic-5.jpg">
-							</div>
+						<!-- 隐藏的图片集 -->
+					<!-- 	<div id="imgs">
+							<img src="../img/mypic-1.jpg" >
+							<img src="../img/mypic-2.jpg" >
+							<img src="../img/mypic-3.jpg" >
+							<img src="../img/mypic-4.jpg" >
+							<img src="../img/mypic-5.jpg" >
+						</div> -->
+						<div class="page-two clearfix " style="display: none;">
+							
+								<img src="../img/mypic-3.jpg" class="mypic-3 left">
+						
+								<img src="../img/mypic-4.jpg" class="mypic-4 left">
+		
+								<img src="../img/mypic-5.jpg" class="mypic-5 left">
+						
 						</div>
 
 						<div id="pagination" class="pagination">
 							<ul>
-								<li class="left">⬅</li>
-								<li class="left">
-									<p>01</p>
+								<li class="left qh-left">⬅</li>
+								<li class="left li-one">
+									<p class="num1" style="display: block;"><span>01</span>/02</p>
+									<p class="num2" style="display: none;"><span>02</span>/02</p>
 								</li>
-								<!-- <li class="left">/</li> -->
-								<li class="left">
-									<p>02</p>
-								</li>
-								<li class="left">➡</li>
+								<li class="left qh-right">➡</li>
 							</ul>
 						</div>
 
@@ -193,7 +200,7 @@
 						<div class="advantage-bottom clearfix">
 							<!-- 右侧内容部分 -->
 							<div class="advantage-right right">
-								<ul>
+								<ul class="list" style="display: block;">
 									<li>
 										<h4>智能化</h4>
 										<p>我有多个核心业务产品线和辅助服务产品线</p>
@@ -208,23 +215,29 @@
 									</li>
 								</ul>
 								
-								<ul class="jiantou clearfix">
-									<li class="left">⬅</li>
-									<li class="left">01/02</li>
-									<li class="left">➡</li>
-								</ul>
+								
 							</div>
 							
 							<!-- 左侧图片 -->
-							<div class="pic-1 right">
+							<div class="pic-1 right" style="display: block;">
 								<img src="../img/advantage-1.png" >
 							</div>
-							<div class="pic-2 right">
+							<div class="pic-2 right" style="display: block;">
 								<img src="../img/advantage-2.png" >
 							</div>
-							<div class="pic-3 right">
+							<div class="pic-3 right" style="display: none;">
 								<img src="../img/about_advantage3_img.png" >
+								<img src="../img/advantage-1.png" >
+								<img src="../img/advantage-2.png" >
 							</div>
+							<ul class="jiantou clearfix">
+								<li class="left bef">⬅</li>
+								<li class="left">
+									<p class="num1" style="display: block;"><span>01</span>/02</p>
+									<p class="num2" style="display: none;"><span>02</span>/02</p>
+								</li>
+								<li class="left aft">➡</li>
+							</ul>
 						</div>
 					</div>
 				</div>

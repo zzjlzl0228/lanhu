@@ -99,12 +99,13 @@ h3 {
 }
 
 .web-right p {
-	padding-top: 7px;
+	padding-top: 0px;
 	color: #98A6AD;
 }
 
 .two li {
 	margin-right: 13px;
+	margin-top: 20px;
 }
 
 /* 网站建设内容部分 */
@@ -117,7 +118,7 @@ h3 {
 }
 
 .cactus, .futuristic, .luckin {
-	width: 365px;
+	width: 392px;
 	height: 245px;
 	margin-right: 11px;
 	background-color: #e9eef2;
@@ -163,13 +164,29 @@ h3 {
 	background-color: #ff852b;
 	color: white;
 }
-
+.images {
+	width: 100%;
+	height: 300px;
+	/* background-color: #CC8CB1; */
+	margin-top: 135px;
+	display: flex;
+}
+.images img {
+	width: 31%;
+	height: 90%;
+	margin-right: 40px;
+	flex: 1;
+}
+.images img:last-child {
+	margin-right: 0px;
+}
 /* APP开发 */
 .app-left .line {
  	width: 20px;
  	height: 10px;
  	background-color: #ff852b;
  	margin-top: 20px;
+	
 }
 
 .app-left p {
@@ -177,9 +194,12 @@ h3 {
   color: #CCCCCC;
   margin-bottom: 20px;
 }
-
+.num1 span,.num2 span {
+	color: #000000;
+	font-size: 18px;
+}
 .app-right ul {
-	padding-top: 35px;
+	padding-top: 55px;
 }
 .app-right li {
 	margin-right: 20px;
@@ -195,7 +215,7 @@ h3 {
 	color: #000000;
 }
 .app-right p {
-	padding-top: 7px;
+	padding-top: 0px;
 	color: #98A6AD;
 }
 
@@ -203,11 +223,11 @@ h3 {
 .app-content {
 	width: 100%;
 	height: 300px;
-	margin-top: 135px;
+	padding-top: 135px;
 	display: flex;
 }
 .vr, .yicx, .water {
-	width: 365px;
+	width: 392px;
 	height: 245px;
 	margin-right: 11px;
 	flex: 1;
@@ -221,7 +241,9 @@ h3 {
 	border-radius: 10px;
 	
 }
-
+.water:last-child {
+	margin-right: 0;
+}
 .app-content .textbox {
 	width: 102px;
 	height: 36px;
@@ -242,3 +264,18 @@ h3 {
 	color: white;
 }
 
+.images-1,.images-2 {
+	width: 100%;
+	height: 300px;
+	padding-top: 30px;
+	display: flex;
+}
+.images-1 img,.images-2 img {
+	width: 33%;
+	height: 80%;
+	margin-right: 10px;
+	flex: 1;
+}
+.images-1 img:last-child,.images-2 img:last-child {
+	margin-right: 0px;
+}

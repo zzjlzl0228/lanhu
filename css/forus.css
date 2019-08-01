@@ -8,7 +8,7 @@
 .content_top {
 	width: 100%;
 	height: 320px;
-	background: url(../img/forus-background.png) no-repeat;
+	background: url(../img/chengya_banner3_img.png) no-repeat;
 
 
 }
@@ -18,9 +18,10 @@
 	/* position: absolute;
 	left: 6%;
 	top: 13%; */
-	padding-top: 105px;
+	padding-top: 85px;
 	margin: auto;
 	padding-bottom: 63px;
+	
 }
 
 .text ul {
@@ -33,9 +34,19 @@
 	font-size: 30px;
 }
 
-.nav a:hover {
-	padding: 10px;
-	border-bottom: 3px solid #ff852b;
+.nav {
+	margin-top: 40px;
+}
+.nav p {
+	font-size: 20px;
+	color: #98A6AD;
+}
+
+.line1 {
+	width: 50px;
+	height: 3px;
+	background-color: #ff852b;
+	margin-top: 30px;
 }
 
 /* 橙芽数据模式 */
@@ -151,7 +162,6 @@ h3 {
 }
 
 
-
 /* 橙芽办公区域 */
 .page-one {
 	display: flex;
@@ -192,19 +202,14 @@ h3 {
 	display: flex;
 }
 
-.mypic-3,
-.mypic-4,
-.mypic-5 {
-	flex: 1;
-	margin-top: 30px;
-	margin-left: 120px;
-}
-
-.mypic-3 img,
-.mypic-4 img,
-.mypic-5 img {
-	width: 500px;
+.page-two img {
+	width: 350px;
 	height: 200px;
+	margin-top: 40px;
+	margin-left: 75px;
+}
+.page-two img:first-child {
+	margin-left: 0;
 }
 
 .pagination {
@@ -224,7 +229,7 @@ h3 {
 }
 
 .pagination p {
-	color: #000000;
+	color: #ccc;
 }
 
 
@@ -239,6 +244,7 @@ h3 {
 	overflow-y: scroll;
 	margin: 5px;
 	display: none;
+	overflow: auto;
 }
 
 /*滚动条样式*/
@@ -349,6 +355,7 @@ h3 {
 	word-break: keep-all;
     white-space: nowrap;
     /* overflow: hidden; */
+		position: relative;
 }
 
 .advantage-top {
@@ -375,6 +382,7 @@ h3 {
 	margin-top: 10px;
 	width: 100%;
 	/* height: 300px; */
+	
 }
 
 .advantage-right {
@@ -406,6 +414,9 @@ h3 {
 .jiantou {
 	margin-top: 10px;
 	margin-left: 163px;
+	position: absolute;
+	top: 84%;
+	right: 330px;
 }
 
 .jiantou li {
@@ -417,7 +428,10 @@ h3 {
 .jiantou li:last-child{
 	color: #000000;
 }
-
+.num1 span,.num2 span {
+	color: #000000;
+	font-size: 18px;
+}
 /* 左侧图片 */
 .pic-1, .pic-2, .pic-3 {
 	width: 400px;
@@ -434,8 +448,12 @@ h3 {
 
 .pic-3 {
 	position: absolute;
-	left: -5%;
-	top: 152%;
+	left: 13%;
+	top: 22%;
+	display: flex;
+}
+.pic-3 img {
+	flex: 1;
 }
 
 /* 合作伙伴 */
