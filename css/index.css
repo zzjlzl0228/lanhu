@@ -6,6 +6,10 @@
 	position: relative;
 }
 
+.header {
+	position: relative;
+	z-index: 10;
+}
 
 
 /* 内容部分 */

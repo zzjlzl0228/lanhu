@@ -31,7 +31,7 @@
   margin-top: 50px;
 }
 
-.nav a {
+.nav p {
   color: #ffffff;
   font-size: 30px;
   padding-bottom: 3px;
@@ -84,7 +84,7 @@ h3 {
 }
 
 .web-right li {
-	margin-right: 70px;
+	margin-right: 17px;
 }
 .web-right li:last-child {
 	margin-right: 0;
@@ -104,8 +104,7 @@ h3 {
 }
 
 .two li {
-	margin-right: 13px;
-	margin-top: 20px;
+	margin-top: 50px;
 }
 
 /* 网站建设内容部分 */
@@ -172,10 +171,11 @@ h3 {
 	display: flex;
 }
 .images img {
-	width: 31%;
-	height: 90%;
-	margin-right: 40px;
+	width: 392px;
+	height: 245px;
+	margin-right: 11px;
 	flex: 1;
+	border-radius: 5px;
 }
 .images img:last-child {
 	margin-right: 0px;
@@ -271,10 +271,11 @@ h3 {
 	display: flex;
 }
 .images-1 img,.images-2 img {
-	width: 33%;
-	height: 80%;
+	width: 392px;
+	height: 245px;
 	margin-right: 10px;
 	flex: 1;
+	border-radius: 5px;
 }
 .images-1 img:last-child,.images-2 img:last-child {
 	margin-right: 0px;

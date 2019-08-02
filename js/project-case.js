@@ -4,13 +4,16 @@ $('.aft').click(function() {
 	$('.num1').hide()
 	$('.num2').show()
 	
+	$('.aft img').css('opacity','0.4')
+	$('.bef img').css('opacity','1')
 })
 $('.bef').click(function() {
 	$('.images').css('display', 'none');
 	$('.web-content').css('display', 'block');
 	$('.num2').hide()
 	$('.num1').show()
-
+	$('.bef img').css('opacity','0.4')
+	$('.aft img').css('opacity','1')
 })
 
 // 点击切换图片

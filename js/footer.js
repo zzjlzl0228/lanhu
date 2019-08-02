@@ -6,9 +6,8 @@ document.writeln("						<div class=\'forus-footer\'>");
 document.writeln("							<!-- 左侧内容 -->");
 document.writeln("							<div class=\'foot-left left\'>");
 document.writeln("								<img src=\'../img/logo.png\' >");
-document.writeln("								<p>石家庄橙芽网络技术有限公司，专注互联网软件技术的开发与应用、</p>");
-document.writeln("								<p>APP开发与设计、微信公众平台开发、电子商务的搭建、网站营销、</p>");
-document.writeln("								<p>网络推广、品牌推广。帮助企业建立全面且切实的市场形象。</p>");
+document.writeln("								<p>石家庄橙芽网络技术有限公司是一家专业专注于网络服务领域的高科技公司，作为一家以智能管理、网站开发为主的互联网技术公司，始终以领先的服务水平和技术实力，为各类企业客户提供顶尖的IT产品服务和技术解决方案</p>");
+
 document.writeln("							</div>");
 document.writeln("							");
 document.writeln("							<!-- 右侧内容部分 -->");

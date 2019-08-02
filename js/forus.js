@@ -1,27 +1,30 @@
 // 鼠标进入图片显示相应提示
 
-// $('.cywl').bind({
-// 	'mouseenter': function() {
-// 		$('.wordscrption').css('display', 'block')
-// 	},
-// 	'mouseleave': function() {
-// 		$('.wordscrption').css('display', 'none')
-// 	}
-// })
+$('.cywl').bind({
+	'mouseenter': function() {
+		$('.wordscrption').css('display', 'block')
+	},
+	'mouseleave': function() {
+		$('.wordscrption').css('display', 'none')
+	}
+})
 $('.cywl').hover(function(){
 	$('.wordscrption').css('display', 'block')
 },function(){
 	$('.wordscrption').css('display', 'none')
 })
-$('.mypic-1').bind({
-	'mouseenter': function() {
-		$('.beizhu').css('display', 'block')
-	},
-	'mouseleave': function() {
-		$('.beizhu').css('display', 'none')
-	}
+
+$('.xianshi').hover(function(){
+	$('.beizhu').show()
+},function(){
+	$('.beizhu').hide()
 })
 
+$('#conference').hover(function(){
+	$('.conference').show()
+},function(){
+	$('.conference').hide()
+})
 // 合作伙伴
 $('.baidu').hover(function() {
 	$(this).attr("src", "../img/about_logo1_1_img.png")
@@ -43,68 +46,63 @@ $('.culture').find('div').bind({
 })
 
 // 获取元素,点击切换
-$('.qh-right,.li-two').click(function() {
-	$('.cywl,.mypic-1,.mypic-2').css('display', 'none');
-
-	$('.page-two').css('display', 'block');
-	$('.num1').hide()
-	$('.num2').show()
+$('.aft').click(function(){
+	$('.bef').css('color','black')
+	if($('.num1').is(":visible")){
+		$('.pic-1 img').attr('src','../img/advantage-1.png');
+		$('.pic-2 img').attr('src','../img/about_advantage3_img.png');
+		$('.pic-3 img').attr('src','../img/advantage-2.png');
+		$('.pic-2 img').css('opacity','1')
+		$('.text-one h4').css('color','black')
+		$('.text-one p').css('color','#CCCCCC')
+		$('.text-two h4').css('color','#ff852b')
+		$('.text-two p').css('color','#ff852b')
+		$('.num1').css('display','none')
+		$('.num2').css('display','block')
+	} else if ($('.num2').is(':visible')){
+		console.log("2")
+		$('.pic-1 img').attr('src','../img/advantage-2.png')
+		$('.pic-2 img').attr('src','../img/advantage-1.png')
+		$('.pic-3 img').attr('src','../img/about_advantage3_img.png');
+		
+		$('.text-two h4').css('color','black')
+		$('.text-two p').css('color','#CCCCCC')
+		$('.text-three h4').css('color','#ff852b')
+		$('.text-three p').css('color','#ff852b')
+		$('.num2').css('display','none')
+		$('.num3').css('display','block')
+	
+	}else {
+		$(".aft").prop("disabled", true);
+	}
 })
-$('.qh-left,.li-one').click(function() {
 
-	$('.page-two').css('display', 'none');
-	$('.cywl,.mypic-1,.mypic-2').css('display', 'block');
-	$('.num2').hide()
-	$('.num1').show()
+$('.bef').click(function(){
+	$('.aft').css('color','black')
+	if ($('.num3').is(':visible')){
+		$('.pic-1 img').attr('src','../img/advantage-1.png');
+		$('.pic-2 img').attr('src','../img/about_advantage3_img.png');
+		$('.pic-3 img').attr('src','../img/advantage-2.png');
+		$('.text-three h4').css('color','black')
+		$('.text-three p').css('color','#CCCCCC')
+		$('.text-two h4').css('color','#ff852b')
+		$('.text-two p').css('color','#ff852b')
+		$('.num3').css('display','none')
+		$('.num2').css('display','block')
+	} else if ($('.num2').is(':visible')){
+		$('.pic-1 img').attr('src','../img/about_advantage3_img.png');
+		$('.pic-2 img').attr('src','../img/advantage-2.png');
+		$('.pic-3 img').attr('src','../img/advantage-1.png');
+		$('.text-two h4').css('color','black')
+		$('.text-two p').css('color','#CCCCCC')
+		$('.text-one h4').css('color','#ff852b')
+		$('.text-one p').css('color','#ff852b')
+		$('.num2').css('display','none')
+		$('.num1').css('display','block')
+		$('.bef').css('color','#ccc')
+	} else {
+		$(".bef").prop("disabled", true);
+	}
 })
 
-// 企业优势
-$('.aft').click(function() {
-	$('.list,.pic-1,.pic-2').css('display', 'none');
-	$('.pic-3').css('display', 'block');
-	$('.bef').css('color', 'black');
-	$('.aft').css('color', '#ccc');
-})
-$('.bef').click(function() {
 
-	$('.pic-3').css('display', 'none');
-	$('.list,.pic-1,.pic-2').css('display', 'block');
-	$('.bef').css('color', '#ccc');
-	$('.aft').css('color', 'black');
-
-})
-
-// 点击切换图片
-// $(function() {
-// 			var images = [];
-// 			var imgs = $("#imgs img");
-// 			var index = 0;
-// 			var displayLength = $(".mypic-1 img").length;
-// 
-// 			for (var i = 0; i < imgs.length; i++) {
-// 
-// 				images.push(imgs[i]);
-// 			}
-// 			$(".qh-left").click(function() {
-// 				if (index == 0) {
-// 					
-// 					return;
-// 				} else 
-// 					for (var j = 0; j < displayLength; j++) {
-// 						$("#img" + j).attr("src", img[index - 1 + j].src);
-// 					}
-// 					index--;
-// 				}
-// 			})
-// 
-// 			$(".qh-right").click(function() {
-// 				if (index == (imgs.length - displayLength)) {
-// 					return 0;
-// 				} else {
-// 					for (var j = 0; j < displayLength; j++) {
-// 						$("#img" + j).attr("src", img[j + 1 + index].src);
-// 					}
-// 					index++;
-// 				}
-// 
-// 			})
