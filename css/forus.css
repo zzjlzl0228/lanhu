@@ -1,38 +1,36 @@
 /* 顶部 */
-.header {
+/* .header {
 	opacity: 1;
 	position: fixed;
 	z-index: 100;
-}
+} */
 
 /* 内容部分 */
 .content_top {
 	width: 100%;
-	height: 320px;
+	height: 620px;
 	background: url(../img/chengya_banner3_img.png) no-repeat;
 
-
 }
+
 
 /* <!-- 图片上的文字内容 --> */
 .text {
-	/* position: absolute;
-	left: 6%;
-	top: 13%; */
-	padding-top: 85px;
-	margin: auto;
-	padding-bottom: 63px;
+	width: 639px;
+	height: 194px;
+	padding-top: 255px;
+	padding-bottom: 171px;
 
 }
 
-.text ul {
+/* .text ul {
 	margin-top: 30px;
 	margin-bottom: 10px;
-}
+} */
 
 .text li {
 	margin-right: 30px;
-	font-size: 30px;
+	font-size: 40px;
 }
 
 .nav {
@@ -45,8 +43,8 @@
 }
 
 .line1 {
-	width: 50px;
-	height: 3px;
+	width: 80px;
+	height: 4px;
 	background-color: #ff852b;
 	margin-top: 30px;
 }
@@ -55,53 +53,91 @@
 .data {
 	width: 100%;
 	height: 200px;
-
+	margin-top: 70px;
 }
 
 .line {
-	width: 20px;
-	height: 10px;
-	background-color: #ff852b;
-	margin-top: 20px;
+	width: 40px;
+	height: 14px;
+	background: rgba(255, 133, 43, 1);
 
 }
 
 h3 {
+	width: 216px;
+	height: 34px;
+	font-size: 36px;
+	font-family: MicrosoftYaHei-Bold;
+	font-weight: bold;
+	color: rgba(51, 51, 51, 1);
+	padding-top: 21px;
+	padding-bottom: 19px;
+}
+
+.mode p {
+	width: 264px;
+	height: 15px;
 	font-size: 20px;
-	color: #000000;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	font-family: MicrosoftYaHei;
+	font-weight: 400;
+	color: rgba(204, 204, 204, 1);
+	padding-bottom: 59px;
 }
 
-.data p {
-	font-size: 14px;
-	color: #CCCCCC;
-	margin-bottom: 20px;
+.picture {
+	margin-top: -70px;
+	width: 817px;
+	height: 194px;
+	border: 1px dashed #ccc;
 }
 
+/* .mypic img {
+	width: 817px;
+	height: 194px;
+} */
 /* 数据*/
 .year {
 	width: 100%;
-	height: 100px;
-	/* background-color: #DFE1E8; */
-	box-shadow: 5px 5px 5px 5px #CCCCCC;
-	border-radius: 10px;
-	border: 1px solid #f9f9f9;
+	height: 182px;
+	background: rgba(255, 255, 255, 1);
+	box-shadow: 0px 4px 13px 0px rgba(202, 202, 202, 0.41);
+	/* border: 1px solid #f9f9f9; */
 	display: flex;
 
 
 }
 
 .year p:first-child {
-	color: #ee6601;
-	font-size: 30px;
-	margin: 0;
+	width: 110px;
+	height: 29px;
+	font-size: 38px;
+	font-family: MicrosoftYaHei-Bold;
+	font-weight: bold;
+	color: rgba(238, 102, 1, 1);
+	margin-top: 59px;
 
+	/* box-sizing: border-box; */
+}
+
+.year p:nth-child(2) {
+	width: 14px;
+	height: 13px;
+	font-size: 26px;
+	font-family: MicrosoftYaHei-Bold;
+	font-weight: bold;
+	color: rgba(238, 102, 1, 1);
+	padding-top: 55px;
+	margin-left: -9px;
 }
 
 .year p:last-child {
-	color: #CCCCCC;
-	font-size: 10px;
+	width: 96px;
+	height: 17px;
+	font-size: 16px;
+	font-family: MicrosoftYaHei;
+	font-weight: 400;
+	color: rgba(204, 204, 204, 1);
+	margin-top: 115px;
 }
 
 .year_1,
@@ -109,21 +145,34 @@ h3 {
 .year_3,
 .year_4 {
 	flex: 1;
-	margin: auto;
-	padding: 15px;
-	padding-left: 10%;
+	/* margin: auto; */
+	/* padding: 15px; */
+	padding-left: 165px;
 
+}
+
+.year_2 p:nth-child(2) {
+	margin-left: -15px;
+}
+
+.year_4 p:nth-child(2) {
+	margin-left: 0px;
+}
+
+.year_4 p:first-child {
+	width: 81px;
+	height: 36px;
 }
 
 /* 橙芽网络 */
 .internet {
-	/* width: 200%; */
-	height: 310px;
+	width: 100%;
+	height: 600px;
 	/* background-color: #edeef0; */
 	background: url(../img/about_bg3_img.png) 1920px 285px;
-	margin-top: 30px;
+	margin-top: 250px;
 	display: flex;
-	
+	position: relative;
 	overflow: hidden;
 }
 
@@ -137,44 +186,59 @@ h3 {
 	padding: 5px;
 	flex: 1;
 	margin-right: 150px;
-	/* margin-left: 105px; */
+	position: relative;
 }
 
 .cywl .line {
-	margin-top: 10px;
+	margin-top: 70px;
 }
 
 .cywl h3 {
-	color: #000000;
-	font-size: 20px;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	width: 144px;
+	height: 35px;
+	font-size: 36px;
+	font-family: MicrosoftYaHei-Bold;
+	font-weight: bold;
+	color: rgba(51, 51, 51, 1);
+	padding-top: 20px;
+	padding-bottom: 49px;
+}
+
+.cywl-text {
+	width: 309px;
+	height: 87px;
+	font-size: 14px;
+	font-family: MicrosoftYaHei;
+	font-weight: 400;
+
+	line-height: 36px;
+	padding-bottom: 51px;
 }
 
 .cywl p {
-	color: #000000;
-	font-size: 13px;
-	padding-bottom: 10px;
+	color: #333;
 }
 
 .cywl img {
-	width: 300px;
-	height: 125px;
+	width: 312px;
+	height: 164px;
+	border: 1px dashed #ccc;
 }
 
 /* 文字描述 */
 .wordscrption {
-	width: 180px;
-	height: 150px;
-	background-color: #606266;
+	width: 300px;
+	height: 310px;
+	background-color: #454241;
 	position: absolute;
-	left: 30%;
-	top: 73%;
+	left: 456px;
+	top: 45%;
 	overflow-y: scroll;
-	margin: 5px;
-	display: none;
+	z-index: 100;
 
 }
+
+
 
 /*滚动条样式*/
 .wordscrption::-webkit-scrollbar {
@@ -196,21 +260,27 @@ h3 {
 }
 
 .wordscrption p {
-	text-align: justify;
-	font-size: 10px;
-	margin: 10px;
+	width: 234px;
+	height: 241px;
+	font-size: 16px;
+	font-family: MicrosoftYaHei;
+	font-weight: 400;
+	color: rgba(255, 255, 255, 1);
+	margin: 37px 39px 32px 27px;
 
 }
+
 
 /* 橙芽办公区域 */
 .container {
-	width: 1000px;
+	width: 1200px;
 }
+
 .g-scrolling-carousel {
-	
+
 	display: flex;
 	white-space: nowrap;
-	
+
 }
 
 .g-scrolling-carousel .items {
@@ -223,46 +293,76 @@ h3 {
 	margin-right: 10px;
 
 }
+
 .mypic-1,
-.mypic-2,
-.mypic-3,
-.mypic-4,
-.mypic-5 {
-	margin-left: 30px;
-	padding-top: 30px;
+.mypic-2 {
+	margin-left: 207px;
+	padding-top: 100px;
 	/* padding-left: 120px; */
 }
-/* .mypi-1 {
-	width: 500px;
-	height: 230px;
-} */
+
 .mypic-1 img,
-.mypic-2 img,
-.mypic-3 img,
-.mypic-4 img,
-.mypic-5 img {
-	width: 500px;
-	height: 230px;
+.mypic-2 img {
+	width: 600px;
+	height: 360px;
 }
 
+.mypic-2 {
+	margin-left: 110px;
+}
 
-.beizhu, .conference {
+.beizhu,
+.conference {
 	width: 136px;
 	height: 52px;
-	background-color: #FF852B;
-	border-radius: 5px;
+	background: rgba(255, 133, 43, 1);
+	border-radius: 2px;
 	position: absolute;
-	left: 45%;
-	top: 25%;
+	left: 60%;
+	top: 40%;
 	color: #fff;
 	text-align: center;
 	line-height: 52px;
-	
+
 }
+
 .conference {
 	left: 90%;
 }
+
+/* 点击切换按钮 */
+.djqh {
+	position: absolute;
+	top: 505px;
+	left: 990px;
+}
+
+.djqh li {
+	margin-right: 30px;
+	width: 29px;
+	height: 17px;
+}
+.djqh li:last-child{
+	margin-left: 30px;
+}
+.djqh li:nth-child(2) p{
+	width: 51px;
+	height: 17px;
+	font-size: 20px;
+	font-family: MicrosoftYaHei-Bold;
+	font-weight: bold;
+	color: rgba(153, 153, 153, 1);
+}
+.djqh li:nth-child(2) span {
+	font-size: 20px;
+	font-family: MicrosoftYaHei-Bold;
+	font-weight: bold;
+	color: rgba(153, 153, 153, 1);
+}
 /* 品牌文化 */
+.brand {
+	margin-top: 80px;
+}
 
 .brand p {
 	font-size: 14px;
@@ -286,15 +386,15 @@ h3 {
 .qyjs {
 	position: relative;
 	flex: 1;
-	width: 200px;
-	height: 250px;
-	background-color: #FFFFFF;
-	border: 1px solid #ccc;
+	width: 300px;
+	height: 364px;
+	background: rgba(255, 255, 255, 1);
+	box-shadow: 0px 4px 13px 0px rgba(221, 221, 221, 0.63);
 	border-radius: 10px;
+
 	padding: 30px;
 	margin-right: 100px;
 	box-sizing: border-box;
-	box-shadow: 5px 5px 5px 5px #CCCCCC;
 	z-index: 5;
 }
 
@@ -302,11 +402,11 @@ h3 {
 .qyzz img,
 .jyln img,
 .qyjs img {
-	width: 130px;
-	height: 130px;
+	width: 140px;
+	height: 140px;
 	position: absolute;
-	left: 21%;
-	top: -23%;
+	left: 80px;
+	top: -60px;
 }
 
 .qysm:hover,
@@ -318,34 +418,34 @@ h3 {
 }
 
 
-.qyzz img {
-	left: 23%;
-}
-
-.jyln img {
-	left: 22%;
-
-}
-
-.qyjs img {
-	left: 22%;
-}
-
-
 
 .qysm h3,
 .qyzz h3,
 .jyln h3,
 .qyjs h3 {
+	width: 96px;
+	height: 23px;
+	font-size: 24px;
+	font-family: MicrosoftYaHei-Bold;
+	font-weight: bold;
+	color: rgba(51, 51, 51, 1);
 	text-align: center;
-	margin-top: 70px;
+	margin: 59px 102px 50px 72px;
+
 }
 
 .qysm p,
 .qyzz p,
 .jyln p,
 .qyjs p {
-	color: #000000;
+	width: 234px;
+	height: 90px;
+	font-size: 18px;
+	font-family: MicrosoftYaHei;
+	font-weight: 400;
+	color: rgba(51, 51, 51, 1);
+	line-height: 36px;
+
 }
 
 .qyjs {
@@ -355,8 +455,9 @@ h3 {
 
 /* 企业优势 */
 .advantage {
+	margin-top: 81px;
 	width: 100%;
-	height: 430px;
+	height: 600px;
 	background-color: #f3f3f3;
 	word-break: keep-all;
 	white-space: nowrap;
@@ -371,7 +472,7 @@ h3 {
 
 /* 企业优势右侧文字 */
 .advantage .line {
-	margin-left: 1180px;
+	margin-top: 75px;
 }
 
 .advantage h3 {
@@ -399,6 +500,10 @@ h3 {
 }
 
 /* 文字区域 */
+.list {
+	margin-top: 51px;
+}
+
 .advantage-right li {
 	padding-top: 20px;
 }
@@ -415,7 +520,11 @@ h3 {
 }
 
 .advantage-right p {
-	color: #CCCCCC;
+	font-size: 14px;
+	font-family: MicrosoftYaHei;
+	font-weight: 400;
+	color: rgba(255, 133, 43, 1);
+	margin-right: 0;
 }
 
 .slides {
@@ -427,6 +536,7 @@ h3 {
 	width: 100%;
 	height: 100%;
 }
+
 .advantage-bottom {
 	margin-top: 10px;
 	width: 100%;
@@ -460,18 +570,24 @@ h3 {
 .advantage-right p {
 	color: #CCCCCC;
 }
-.text-one h4, .text-one p{
+
+.text-one h4,
+.text-one p {
 	color: #ff852b;
 }
+
 .jiantou {
+
 	margin-top: 10px;
 	margin-left: 163px;
 	position: absolute;
-	top: 84%;
-	right: 330px;
+	top: 509px;
+	right: 200px;
 }
 
 .jiantou li {
+	width: 28px;
+	height: 17px;
 	font-size: 20px;
 	margin-right: 20px;
 	color: #CCCCCC;
@@ -491,10 +607,10 @@ h3 {
 .pic-1,
 .pic-2,
 .pic-3 {
-	width: 400px;
-	height: 280px;
-	margin-left: 40px;
-	margin-top: 82px;
+	width: 470px;
+	height: 320px;
+	margin-left: 50px;
+	margin-top: 200px;
 	display: inline-block;
 }
 
@@ -510,7 +626,8 @@ h3 {
 	margin-left: -450px;
 }
 
-.pic-1, .pic-2 {
+.pic-1,
+.pic-2 {
 	opacity: 0.5;
 }
 
@@ -518,7 +635,7 @@ h3 {
 
 .partner {
 	width: 100%;
-	margin-top: 100px;
+	margin-top: 80px;
 }
 
 .partner-top {
@@ -534,20 +651,22 @@ h3 {
 
 .partner-bottom {
 	width: 100%;
+	margin-top: 69px;
 }
 
 .partner-bottom ul {
 	display: flex;
-	margin-bottom: 20px;
+	margin-bottom: 25px;
 }
 
 .partner-bottom li {
-	width: 200px;
-	height: 130px;
+	width: 346px;
+	height: 204px;
 	flex: 1;
 	text-align: center;
 	line-height: 200px;
 	margin-right: 20px;
+	border: 1px dashed #ccc;
 }
 
 .partner-bottom li:last-child {
@@ -563,11 +682,9 @@ h3 {
 	height: 100%;
 }
 
-/* .tengxun img {
-	width: 72%;
-	height: 47%;
-	padding-bottom: 10px;
-} */
+.partner-bottom ul:last-child {
+	margin-bottom: 105px;
+}
 
 .baidu:hover {
 	content: url(../img/about_logo1_1_img.png);

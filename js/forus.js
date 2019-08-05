@@ -1,18 +1,10 @@
 // 鼠标进入图片显示相应提示
 
-$('.cywl').bind({
-	'mouseenter': function() {
-		$('.wordscrption').css('display', 'block')
-	},
-	'mouseleave': function() {
-		$('.wordscrption').css('display', 'none')
-	}
-})
-$('.cywl').hover(function(){
-	$('.wordscrption').css('display', 'block')
-},function(){
-	$('.wordscrption').css('display', 'none')
-})
+// $('.cywl').hover(function(){
+// 	$('.wordscrption').css('display', 'block')
+// },function(){
+// 	$('.wordscrption').css('display', 'none')
+// })
 
 $('.xianshi').hover(function(){
 	$('.beizhu').show()
