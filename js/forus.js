@@ -39,7 +39,7 @@ $('.culture').find('div').bind({
 
 // 获取元素,点击切换
 $('.aft').click(function(){
-	$('.bef').css('color','black')
+	$('.bef img').css('opacity','1')
 	if($('.num1').is(":visible")){
 		$('.pic-1 img').attr('src','../img/advantage-1.png');
 		$('.pic-2 img').attr('src','../img/about_advantage3_img.png');
@@ -63,14 +63,14 @@ $('.aft').click(function(){
 		$('.text-three p').css('color','#ff852b')
 		$('.num2').css('display','none')
 		$('.num3').css('display','block')
-	
+		$('.aft img').css('opacity','0.4')
 	}else {
 		$(".aft").prop("disabled", true);
 	}
 })
 
 $('.bef').click(function(){
-	$('.aft').css('color','black')
+	$('.aft img').css('opacity','1')
 	if ($('.num3').is(':visible')){
 		$('.pic-1 img').attr('src','../img/advantage-1.png');
 		$('.pic-2 img').attr('src','../img/about_advantage3_img.png');
@@ -91,10 +91,37 @@ $('.bef').click(function(){
 		$('.text-one p').css('color','#ff852b')
 		$('.num2').css('display','none')
 		$('.num1').css('display','block')
-		$('.bef').css('color','#ccc')
+		$('.bef img').css('opacity','0.4')
 	} else {
 		$(".bef").prop("disabled", true);
 	}
 })
 
 
+// 橙芽网络
+$('.afters').click(function(){
+	$('.previous img').css('opacity','1')
+	if($('#num1').is(':visible')){
+		$('.mypic-1 img').attr('src','../img/Conference-Room.png')
+		$('.mypic-2 img').attr('src','../img/about_environment1_img.png')
+		$('#num1').css('display','none')
+		$('#num2').css('display','block')
+		$('.afters img').css('opacity','0.4')
+		
+	}else {
+		$(".afters").prop("disabled", true);
+	}
+})
+
+$('.previous').click(function(){
+	$('.afters img').css('opacity','1')
+	if($('#num2').is(':visible')){
+		$('.mypic-1 img').attr('src','../img/about_environment1_img.png')
+		$('.mypic-2 img').attr('src','../img/Conference-Room.png')
+		$('#num2').css('display','none')
+		$('#num1').css('display','block')
+		$('.previous img').css('opacity','0.4')
+	}else {
+		$('.previous').prop('disabled',true)
+	}
+})

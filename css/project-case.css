@@ -1,18 +1,22 @@
 /* 项目案例 */
 /* 内容区域   背景图 */
-
 .anli-content {
 	width: 100%;
-	height: 560px;
+	height: 100%;
+}
+.wenben {
+	width: 100%;
+	height: 620px;
 	background: url(../img/background.png) no-repeat;
+	background-size: 100% 620px;
 }
 
 /* 背景图上的文字字 */
 .text {
-	width: 33.28%;
+	/* width: 33.28%; */
 	height: 31.29%;
-	padding-top: 195px;
-	padding-bottom: 171px;
+	padding: 213px 60px;
+	
 }
 
 .text p {
@@ -28,6 +32,7 @@
 .nav ul {
 	margin-top: 50px;
 }
+
 .nav li:first-child p {
 	color: #ffffff;
 	font-size: 20px;
@@ -47,16 +52,16 @@
 .website {
 	padding-top: 60px;
 	width: 100%;
-	/* height: 500px; */
+	/* padding-bottom: 191px; */
 }
 
 .web-left ul {
-	width: 375px;
+	/* width: 375px; */
 	height: 103px;
 }
 
 .web-left li:nth-child(2) {
-	width: 216px;
+	/* width: 216px; */
 	height: 35px;
 	margin-top: 20px;
 }
@@ -69,7 +74,7 @@
 }
 
 h3 {
-	font-size: 36px;
+	font-size: 2.25rem;
 	font-family: MicrosoftYaHei-Bold;
 	font-weight: bold;
 	color: rgba(51, 51, 51, 1);
@@ -82,7 +87,7 @@ h3 {
 }
 
 .web-left p {
-	width: 375px;
+	/* width: 375px; */
 	height: 15px;
 	/* font-size: 20px; */
 	font-family: MicrosoftYaHei;
@@ -100,28 +105,26 @@ h3 {
 	height: 17px;
 }
 
-.web-right ul:first-child li:first-child {
-	margin-right: 110px;
-}
+
 
 .web-right ul:last-child {
-	margin-top: 13px;
+	margin-top: 92px;
 }
 
 .two li:nth-child(2) {
 	width: 51px;
 	height: 17px;
-	font-size: 20px;
+	font-size: 1.25rem;
 	font-family: MicrosoftYaHei-Bold;
 	font-weight: bold;
 	color: rgba(153, 153, 153, 1);
-	margin-left: 29px;
+	margin-left: 30px;
 	margin-right: 30px;
 }
 
 .web-right li a {
 	color: grey;
-	font-size: 30px;
+	font-size: 1.875rem;
 }
 
 .web-right .aft a,
@@ -147,9 +150,9 @@ h3 {
 .cactus,
 .futuristic,
 .luckin {
-	width: 461px;
+	width: 30%;
 	height: 339px;
-	margin-right: 32px;
+	margin-right: 38px;
 	background-color: #e9eef2;
 	border-radius: 10px;
 	flex: 1;
@@ -182,7 +185,7 @@ h3 {
 }
 
 .web-content .textbox {
-	width: 160px;
+	width: 30%;
 	height: 50px;
 	background: rgba(255, 255, 255, 1);
 	box-shadow: 0px 4px 13px 0px rgba(202, 202, 202, 0.41);
@@ -193,7 +196,7 @@ h3 {
 	top: 311px;
 	color: rgba(51, 51, 51, 1);
 	line-height: 50px;
-	font-size: 18px;
+	font-size: 1.125rem;
 }
 
 /* .futuristic .textbox {
@@ -207,28 +210,74 @@ h3 {
 
 .images {
 	width: 100%;
-	height: 300px;
-	/* background-color: #CC8CB1; */
+	/* height: 300px; */
+
 	margin-top: 213px;
 	display: flex;
 }
 
-.images img {
-	width: 461px;
-	height: 339px;
-	margin-right: 32px;
+/* 听评课系统 */
+.tpkxt,
+.sygzs,
+.youlv {
+	width: 30%;
+	height: 340px;
+	background-color: #F2F0DF;
 	flex: 1;
-	border-radius: 5px;
+	box-sizing: border-box;
+	margin-right: 36px;
+	position: relative;
 }
 
-.images img:last-child {
+/* 摄影工作室 */
+.sygzs {
+	background-color: #C4C4C4;
+}
+
+.youlv {
+	margin-right: 0;
+	background-color: #D6E0E1;
+}
+
+.images img {
+	width: 100%;
+	height: 100%;
+	/* margin-right: 21px; */
+	/* flex: 1; */
+	border: 1px dashed #ccc;
+	/* box-sizing: border-box; */
+}
+
+.youlv {
 	margin-right: 0px;
 }
 
+.images .textboxs {
+	width: 30%;
+	height: 50px;
+	background: rgba(255, 255, 255, 1);
+	box-shadow: 0px 4px 13px 0px rgba(202, 202, 202, 0.41);
+	border-radius: 4px;
+	line-height: 50px;
+	position: absolute;
+	left: 31px;
+	top: 311px;
+
+	font-size: 1.125rem;
+	font-family: MicrosoftYaHei-Bold;
+	font-weight: bold;
+	color: rgba(51, 51, 51, 1);
+	text-align: center;
+}
+.youlv .textboxs {
+	background-color: #FF852B;
+	color: #fff;
+}
 /* APP开发 */
 .app {
 	width: 100%;
 	margin-top: 170px;
+	margin-bottom: 198px;
 }
 
 .app-left {
@@ -247,9 +296,9 @@ h3 {
 }
 
 .app-left li:nth-child(2) h3 {
-	width: 180px;
+	/* width: 180px; */
 	height: 34px;
-	font-size: 36px;
+	font-size: 2.25rem;
 	font-family: MicrosoftYaHei-Bold;
 	font-weight: bold;
 	color: rgba(51, 51, 51, 1);
@@ -257,7 +306,7 @@ h3 {
 }
 
 .app-left p {
-	width: 193px;
+	/* width: 193px; */
 	height: 15px;
 	font-size: 20px;
 	font-family: MicrosoftYaHei;
@@ -268,7 +317,7 @@ h3 {
 .num1 span,
 .num2 span {
 	color: #000000;
-	font-size: 18px;
+	font-size: 1.125rem;
 }
 
 .app-right ul {
@@ -289,7 +338,7 @@ h3 {
 
 .app-right li a {
 	color: grey;
-	font-size: 30px;
+	font-size: 1.875rem;
 }
 
 .app-right li:last-child a {
@@ -305,14 +354,15 @@ h3 {
 .app-content {
 	width: 100%;
 	height: 300px;
-	padding-top: 50px;
+	padding-top: 191px;
 	display: flex;
+	box-sizing: border-box;
 }
 
 .vr,
 .yicx,
 .water {
-	width: 462px;
+	width: 30%;
 	height: 340px;
 	margin-right: 36px;
 	flex: 1;
@@ -335,12 +385,12 @@ h3 {
 }
 
 .app-content .textbox {
-	width: 160px;
+	width: 30%;
 	height: 50px;
 	background: rgba(255, 255, 255, 1);
 	box-shadow: 0px 4px 13px 0px rgba(202, 202, 202, 0.41);
 	border-radius: 4px;
-	font-size: 18px;
+	font-size: 1.125rem;
 	border: 1px solid #ccc;
 	position: absolute;
 	left: 32px;
@@ -356,21 +406,51 @@ h3 {
 	color: white;
 }
 
-.images-1,
-.images-2 {
+.images-1 {
 	width: 100%;
-	height: 300px;
-	padding-top: 60px;
 	display: flex;
+	padding-top: 63px;
+	box-sizing: border-box;
+}
+
+.szpg,.mmyd, .qwts {
+	width: 30%;
+	height: 340px;
+	margin-right: 34px;
+	border: 1px dashed #ccc;
+	position: relative;
+	flex: 1;
+}
+
+.qwts {
+	margin-right: 0;
+}
+.images-1 .textboxs {
+	width: 30%;
+	height: 50px;
+	background: rgba(255, 255, 255, 1);
+	box-shadow: 0px 4px 13px 0px rgba(202, 202, 202, 0.41);
+	border-radius: 4px;
+	line-height: 50px;
+	position: absolute;
+	left: 31px;
+	top: 311px;
+
+	font-size: 1.125rem;
+	font-family: MicrosoftYaHei-Bold;
+	font-weight: bold;
+	color: rgba(51, 51, 51, 1);
+	text-align: center;
+}
+.qwts .textboxs {
+	background-color: #FF852B;
+	color: #fff;
 }
 
 .images-1 img,
 .images-2 img {
-	width: 462px;
-	height: 340px;
-	margin-right: 36px;
-	flex: 1;
-	border-radius: 5px;
+	width: 100%;
+	height: 100%;
 }
 
 .images-1 img:last-child,
@@ -379,15 +459,21 @@ h3 {
 }
 
 .xcx {
-	margin-bottom: 199px;
+	padding-top: 50px;
+	/* margin-bottom: 199px; */
 }
 
-.xcx-left li:nth-child(3) p{
+.xcx-left li:nth-child(3) p {
 	margin-top: 19px;
-	width: 330px;
+	/* width: 330px; */
 	height: 15px;
-	font-size: 20px;
+	font-size: 1.25rem;
 	font-family: MicrosoftYaHei;
 	font-weight: 400;
 	color: rgba(204, 204, 204, 1);
+}
+
+.images-2 {
+	padding-top: 59px;
+	margin-bottom: -99px;
 }

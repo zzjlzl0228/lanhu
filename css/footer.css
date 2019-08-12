@@ -18,14 +18,15 @@ footer {
 /* 左侧内容部分 */
 .foot-left {
 	padding-top: 31px;
-	width: 380px;
+	/* min-width: 380px; */
+	width: 30%;
 	height: 180px;
-
+	/* overflow: hidden; */
 }
 
 .foot-left p {
 	margin-top: 28px;
-	width: 410px;
+	width: 100%;
 	height: 65px;
 	font-size: 12px;
 	font-family: MicrosoftYaHeiLight;
@@ -38,11 +39,11 @@ footer {
 /* 右侧内容部分 */
 .foot-right {
 	padding-top: 37px;
-	
+	width: 50%;
 }
 
 .foot-right ul {
-	margin-right: 98px;
+	margin-right: 44px;
 }
 .foot-right ul:last-child {
 	margin-right: 0;
@@ -52,7 +53,7 @@ footer {
 }
 
 .foot-right li:first-child h4 {
-	width: 56px;
+	/* width: 56px; */
 	height: 14px;
 	font-size: 14px;
 	font-family: MicrosoftYaHeiLight;
@@ -69,11 +70,13 @@ footer {
 }
 
 .foot-right ul:last-child li:last-child {
-	width: 252px;
+	/* width: 252px; */
 	height: 13px;
 
 }
-
+.foot-right ul:last-child {
+	margin-right: 0;
+}
 .di {
 	text-align: center;
 	padding-top: 20px;
