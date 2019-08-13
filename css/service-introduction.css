@@ -52,10 +52,10 @@
 }
 
 .qua {
-	width: 60%;
+	width: 51.74%;
 	height: 25%;
-
-	border: 1px dashed #ccc;
+	
+	/* border: 1px dashed #ccc; */
 }
 
 .QUA {
@@ -141,7 +141,7 @@
 .wzjs-left img {
 	width: 100%;
 	height: 100%;
-	border: 1px dashed #ccc;
+	/* border: 1px dashed #ccc; */
 	box-sizing: border-box;
 }
 

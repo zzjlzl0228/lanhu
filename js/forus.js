@@ -1,10 +1,5 @@
 // 鼠标进入图片显示相应提示
 
-// $('.cywl').hover(function(){
-// 	$('.wordscrption').css('display', 'block')
-// },function(){
-// 	$('.wordscrption').css('display', 'none')
-// })
 
 $('.xianshi').hover(function(){
 	$('.beizhu').show()

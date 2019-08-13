@@ -3,7 +3,7 @@ $('.aft').click(function() {
 	$('.images').css('display', 'block');
 	$('.num1').hide()
 	$('.num2').show()
-	
+	console.log(this)
 	$('.aft img').css('opacity','0.4')
 	$('.bef img').css('opacity','1')
 })
@@ -22,6 +22,7 @@ $('.next').click(function() {
 	$('.images-1,.num2').show()
 	$('.next').css('opacity','0.4')
 	$('.prev').css('opacity','1')
+	console.log(this)
 })
 $('.prev').click(function() {
 	$('.images-1,.num2').hide()
@@ -35,6 +36,7 @@ $('.next1').click(function() {
 	$('.images-2,.num2').show()
 	$('.next1').css('opacity','0.4')
 	$('.prev1').css('opacity','1')
+	console.log(this)
 })
 $('.prev1').click(function() {
 	$('.images-2,.num2').hide()
@@ -43,13 +45,4 @@ $('.prev1').click(function() {
 	$('.next1').css('opacity','1')
 })
 
-// var toggle = true;
-// $('.next').click(function() {
-// 	if (toggle) {
-// 		$(".img1").attr("src", "../img/project_arrowright2_icon.png")
-// 		toggle = false；
-// 	} else {
-// 		$(".img1").attr("src", "../img/project_arrowright1_icon.png")
-// 		toggle = true；
-// 	}
-// })
+
