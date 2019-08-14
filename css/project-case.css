@@ -2,7 +2,7 @@
 /* 内容区域   背景图 */
 .anli-content {
 	width: 100%;
-	height: 100%;
+	/* height: 100%; */
 }
 .wenben {
 	width: 100%;
@@ -202,7 +202,7 @@ h3 {
 /* .futuristic .textbox {
 	left: 43%;
 } */
-.web-content .textbox:hover {
+.web-content>div:hover .textbox {
 
 	background-color: #ff852b;
 	color: white;
@@ -266,7 +266,7 @@ h3 {
 	color: rgba(51, 51, 51, 1);
 	text-align: center;
 }
-.images .textboxs:hover {
+.images>div:hover .textboxs {
 	background-color: #FF852B;
 	color: #fff;
 }
@@ -277,10 +277,6 @@ h3 {
 	/* margin-bottom: 198px; */
 }
 
-.app-left {
-	width: 422px;
-	/* height: 139px; */
-}
 
 .app-left li:first-child {
 	margin-bottom: 21px;
@@ -399,7 +395,7 @@ h3 {
 	text-align: center;
 }
 
-.app-content .textbox:hover {
+.app-content>div:hover .textbox {
 
 	background-color: #ff852b;
 	color: white;
@@ -442,7 +438,7 @@ h3 {
 	color: rgba(51, 51, 51, 1);
 	text-align: center;
 }
-.images-1 .textboxs:hover {
+.images-1>div:hover .textboxs {
 	background-color: #FF852B;
 	color: #fff;
 }
@@ -466,10 +462,6 @@ h3 {
 	margin-bottom: 198px;
 }
 
-.routine-left {
-	width: 422px;
-	/* height: 139px; */
-}
 
 .routine-left li:first-child {
 	margin-bottom: 21px;
@@ -501,7 +493,11 @@ h3 {
 }
 
 .num1 span,
-.num2 span {
+.num2 span,
+.num3 span,
+.num4 span,
+.num5 span
+.num6 span {
 	color: #000000;
 	font-size: 1.125rem;
 }
@@ -535,7 +531,9 @@ h3 {
 	padding-top: 0px;
 	color: #98A6AD;
 }
-
+.routine-right span {
+	color: #000000;
+}
 /* 小程序内容部分 */
 .routine-content {
 	width: 100%;
@@ -588,7 +586,7 @@ h3 {
 	text-align: center;
 }
 
-.routine-content .textbox:hover {
+.routine-content>div:hover .textbox {
 
 	background-color: #ff852b;
 	color: white;
@@ -635,7 +633,7 @@ h3 {
 }
 
 .images-2 .textboxs {
-	width: 30%;
+	/* width: 30%; */
 	/* height: 50px; */
 	background: rgba(255, 255, 255, 1);
 	box-shadow: 0px 4px 13px 0px rgba(202, 202, 202, 0.41);
@@ -651,7 +649,7 @@ h3 {
 	color: rgba(51, 51, 51, 1);
 	text-align: center;
 }
-.images-2 .textboxs:hover {
+.images-2>div:hover .textboxs {
 	background-color: #FF852B;
 	color: #fff;
 }

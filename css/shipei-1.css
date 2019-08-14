@@ -846,12 +846,12 @@
 
 	.header_left {
 		margin: 11px;
-		width: 89px;
+		width: 22%;
 		height: 38px;
 	}
 
 	.header_right a {
-		-webkit-transform: scale(0.5);
+		font-size: 12px;
 	}
 
 	.header_right li:first-child,

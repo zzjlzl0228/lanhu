@@ -66,8 +66,8 @@ body {
 }
 
 h3 {
-	width: 216px;
-	height: 34px;
+	/* width: 216px;
+	height: 34px; */
 	font-size: 36px;
 	font-family: MicrosoftYaHei-Bold;
 	font-weight: bold;
@@ -77,8 +77,8 @@ h3 {
 }
 
 .mode p {
-	width: 264px;
-	height: 15px;
+	/* width: 264px;
+	height: 15px; */
 	font-size: 20px;
 	font-family: MicrosoftYaHei;
 	font-weight: 400;
@@ -315,6 +315,7 @@ h3 {
 
 .mypic-2 {
 	margin-left: 110px;
+	margin-right: 0;
 }
 
 .beizhu,

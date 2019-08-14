@@ -102,7 +102,8 @@ $('.afters').click(function(){
 		$('#num1').css('display','none')
 		$('#num2').css('display','block')
 		$('.afters img').css('opacity','0.4')
-		
+		// $('.beizhu').css('display','none')
+		// $('.conference').css('display','block')
 	}else {
 		$(".afters").prop("disabled", true);
 	}
@@ -116,7 +117,10 @@ $('.previous').click(function(){
 		$('#num2').css('display','none')
 		$('#num1').css('display','block')
 		$('.previous img').css('opacity','0.4')
+		
 	}else {
 		$('.previous').prop('disabled',true)
 	}
 })
+
+
