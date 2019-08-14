@@ -54,7 +54,8 @@
 	margin-right: 0;
 }
 
-.header_right li:hover {
+
+.hoverli {
 	border-bottom: 3px solid #FF852B;
 	padding-bottom: 28px;
 }

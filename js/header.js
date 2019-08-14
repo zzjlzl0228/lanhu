@@ -2,7 +2,7 @@ document.writeln("	<div class=\'header\'>");
 document.writeln("				<div class=\'wraper\'>");
 document.writeln("					<div class=\'header_left left\'></div>");
 document.writeln("					<div class=\'header_right right\'>");
-document.writeln("						<ul class=\'clearfix\'>");
+document.writeln("						<ul class=\'header-list clearfix\'>");
 document.writeln("							<li class=\'left\'>");
 document.writeln("								<a href=\'../index.html\'>首页</a>");
 document.writeln("							</li>");
@@ -19,3 +19,5 @@ document.writeln("						</ul>");
 document.writeln("					</div>");
 document.writeln("				</div>");
 document.writeln("			</div>");
+
+
