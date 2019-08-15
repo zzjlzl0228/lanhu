@@ -15,8 +15,8 @@
 /* 内容部分 */
 .content {
 	width: 100%;
-	/* max-width: 535px; */
-	height: 890px;
+	
+	height: 100%;
 	background: url('../img/home-black-bg.jpg') no-repeat;
 	background-size: 100% 100%;
 	/* circle2超出部分隐藏 */
@@ -26,7 +26,7 @@
 .content_center {
 	position: absolute;
 	left: 50%;
-	top: 50%;
+	top: 21%;
 	transform: translate(-50%,-50%);
 }
 canvas {
@@ -34,8 +34,8 @@ canvas {
 	z-index: 0;
 	position: absolute;
 	left: -10%;
-	top: -5%;
-	transform: rotate(24deg) translateX(138px);
+	top: -2%;
+	transform: rotate(24deg) translateX(130px);
 	overflow: hidden;
 }
 .content_center p {
@@ -60,8 +60,8 @@ canvas {
 	width: 600px;
 	height: 600px;
 	position: absolute;
-	top: 50%;
-	left: 50%;
+	top: 22%;
+	left: 51%;
 	margin-top: -300px;
 	margin-left: -300px;
 	
@@ -79,8 +79,8 @@ canvas {
 	width: 1200px;
 	height: 1200px;
 	position: absolute;
-	top: 50%;
-	left: 50%;
+	top: 24%;
+	left: 51%;
 	margin-top: -600px;
 	margin-left: -600px;	
 }
@@ -128,330 +128,51 @@ canvas {
 }
 
 /* 技术体系 */
-.jstx {
-	width: 20%;
-	height: 190px;
+#jstx {
 	position: absolute;
-	left: 28%;
 	top: 10%;
-	z-index: 10;
+	left: 28%;
+	transform: rotate(0deg);
 }
-/* .jstx #myCanvas {
-	width: 280px;
-	height: 190px;
-} */
-.cc_1 {
+
+/* 产品特点 */
+#cptd-1, #cptd-2 {
 	position: absolute;
-	left: 50%;
-  top: 130px;
-}
-.cc_1 a {
-	font-size: 12px;
-	margin-left: 10px;
-	margin-bottom: 5px;
-	color: white;
-}
- .circle_center a {
-	/* margin-top: 10px; */
-	margin-left: 10px;
-	margin-bottom: 5px;
-	font-size: 12px;
-	color: #CCCCCC;
-}
-.circle_center a:hover {
-	color: white;
-}
-
-.cc_1 img {
-	width: 10px;
-	height: 10px;
-	background-color: #FFA500;
-	border-radius: 50%;
-}
-
-.amt .circle3 {
-	left: -7%;
-	
-	width: 20px;
-	height: 20px;
-	background: #dfe1e8;
-	opacity: 0.3;
-	border-radius: 50%;
-	position: absolute;
-	top: -6%;
-	animation: circle1 3s linear infinite;
-}
-
-.amt .circle4 {
-	left: -14.5%;
-	background-color: #FFA500; 
-	width: 30px;
-	height: 30px;
-	background: #dfe1e8;
-	opacity: 0.3;
-	border-radius: 50%;
-	position: absolute;
-	top: -16%;
-	animation: circle1 3s linear infinite;
-}
-.cc_1 .circle3, .cc_1 .circle4 {
-	background-color: #FFA500;
-}
-.cc_1 .circle3 {
-	left: -8%;
-	top: -18%;
-}
-.cc_1 .circle4 {
-	left: -14%;
-	top: -40%;
-}
-.cc_2 {
-	position: absolute;
-	left: 53%;
-  top: 77px;
-
-}
-
-.cc_3 {
-	position: absolute;
-	left: 20%;
-  top: 70px;
-}
-.cc_3 a,.cc_4 a {
-	margin-right: 5px;
-}
-
-.cc_4 {
-	position: absolute;
-	left:3%;
-	top: 110px;
-
-}
-
-.cc_5 {
-	position: absolute;
-	left:20%;
-	top: 145px;
-
-}
-.cc_5 img {
-	margin-left: 40px;
+	top: 23%;
+	left: 25%;
+	transform: rotate(0deg);
 }
 
 
 /* 产品特点 */
-.cptd_1 {
-	width: 20%;
-	height: 205px;
-	position: absolute;
-	left: 16%;
-	top: 40%;
-	/* background-color: #CC8CB1; */
-	z-index: 10;
-}
-.cc_one {
-	position: absolute;
-	top: 100px;
-  left: 50%;
-	
-}
-.cc_one a {
-	font-size: 12px;
-	margin-left: 20px;
-	margin-top: -15px;
-	color: white;
-}
-.cc_one img {
-	width: 10px;
-	height: 10px;
-	background-color: greenyellow;
-	border-radius: 50%;;
-}
-.cc_one .circle3 {
-	left: -7%;
-	top: -38%;
-	background-color: greenyellow;
-}
-.cc_one .circle4 {
-	top: -82%;
-  left: -14%;
-	background-color: greenyellow;
-}
-.cc_two {
-	position: absolute;
-	top: 34px;
-  left: 44%;
-	z-index: 10;
-}
-.cc_two img {
-	margin-left: 20px;
-}
-.circle_center a {
-	/* margin: 10px; */
-	margin-bottom: 5px;
-	color: #ccc;
-}
-
-.cc_three {
-	position: absolute;
-	top: 66px;
-  left: 10%;
-	z-index: 10;
-}
-.cc_three a {
-	margin-right: 5px;
-}
-
-.cc_four {
-	position: absolute;
-	top: 110px;
-  left: 15%;
-	
-}
-.cc_four img {
-	margin-left: 25px;
-}
-
-.cc_five {
-	position: absolute;
-	top: 150px;
-  left: 65%;
-}
-
-/* 产品特点 */
-.cptd {
-	width: 23%;
-	height: 100px;
-	position: absolute;
-	left: 42%;
-  top: 80%;
-	z-index: 10;
-}
-.cc_cp a {
-	font-size: 12px;
-	color: white;
-}
-.cc_cp img {
-	width: 10px;
-	height: 10px;
-	background-color: #f3e300;
-	border-radius: 50%;
-	margin-right: 5px;
-}
-
-.cc_cp .circle3 {
-	left: -1.5%;
-	top: -4%;
-	background-color: #f3e300;
-}
-.cc_cp .circle4 {
-	left: -3%;
-	top: -9%;
-	background-color: #f3e300;
-}
-
-.cc_sjh {
-	position: absolute;
-	left: -95px;
-   top: -65px;
-}
-.cc_sjh a {
-	margin-right: 10px;
-}
-
-/* 平台化 */
-.cc_pth {
-	position: absolute;
-	left: -10px;
-  bottom: 25px;
-
-}
-.cc_pth a {
-	margin-right: 10px;
-}
-
-/* 智能化 */
-.cc_znh {
-	position: absolute;
-	left: -80px;
-  bottom: 62px;
-
-}
-
-.cc_znh img {
-	margin-left: 25px;
+#cptd-2 {
+	top: 31%;
+	left: 38%;
 }
 
 /* 我们的优势 */
-.youshi {
-	width: 10%;
-	height: 50px;
+#youshi {
 	position: absolute;
-	right: 35%;
-  top: 200px;
-	z-index: 10;
+	top: 8%;
+	left: 60%;
+	transform: rotate(0deg);
 }
-.ccr_1 a {
-	font-size: 12px;
-	margin-right: 10px;
-	color: white;
-}
-.ccr_1 img {
-	width: 10px;
-	height: 10px;
-	background-color: #a300f3;
-	border-radius: 50%;
-}
-.ccr_1 .circle3 {
-	top: -11%;
-	left: 53%;
-	background-color: #a300f3;
-}
-.ccr_1 .circle4 {
-	top: -20%;
-	left: 50%;
-	background-color: #a300f3;
-}
-/* 智能大数据 */
-.ccr_2 {
+
+
+#anli {
 	position: absolute;
-	right: -50px;
-  top: 49px;
+	top: 28%;
+	left: 60%;
+	transform: rotate(0deg);
 }
-
-/* 多元信息服务 */
-.ccr_3 {
-	position: absolute;
-	right: -190px;
-	top: 0px;
-}
-
-/* 全方位业务生态圈 */
-.ccr_4 {
-	position: absolute;
-	right: -115px;
-  top: -82px;
-}
-
-.ccr_4 img {
-	width: 10px;
-	height: 10px;
-	background-color: #dfe1e8;
-	border-radius: 50%;
-
-}
-
-
-
-
 
 
 /* 企业案例 */
 .anli {
 	width: 10%;
 	position: absolute;
-	right: 23%;
-  top: 676px;
+	right: 28%;
+  top: 36%;
 	z-index: 10;
 }
 .ccr_one a {
@@ -466,20 +187,20 @@ canvas {
 }
 
 .ccr_one .circle3 {
-	top: -22%;
-	left: 45%;
+	top: -24%;
+	left: 32%;
 	background-color: #cc8cb1;
 }
 .ccr_one .circle4 {
-	top: -46%;
-	left: 42%;
+	top: -47%;
+	left: 29.5%;
 	background-color: #cc8cb1;
 }
 
 /* 秒成集团APP制作 */
 .ccr_two {
 	position: absolute;
-	right: 37%;
+	right: 26%;
   top: -130px;
 	z-index: 10;
 }
@@ -500,7 +221,7 @@ canvas {
 	
 }
 .ccr_4 .circle4 {
-	left: -9.5%;
+	left: -9%;
   top: -39%;
 }
 /* 动画 */
@@ -519,7 +240,7 @@ canvas {
 
 .footer {
 	position: absolute;
-	bottom: 2%;
+	bottom: 56%;
 	left: 45%;
 	z-index: 10;
 }

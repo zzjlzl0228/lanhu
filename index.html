@@ -11,7 +11,7 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
 		<link rel="stylesheet" type="text/css" href="css/index.css" />
 		<link rel="stylesheet" type="text/css" href="css/header.css" />
-		<link rel="stylesheet" type="text/css" href="css/shipei-1.css" />
+		<!-- <link rel="stylesheet" type="text/css" href="css/shipei-1.css" /> -->
 		<!-- canvas 插件 -->
 		<script src="js/pixi.min.js" type="text/javascript" charset="utf-8"></script>
 
@@ -30,7 +30,7 @@
 				overflow: hidden;
 		</style>
 		<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
-		
+
 	</head>
 	<body>
 		<div class="body">
@@ -57,10 +57,10 @@
 			</div>
 			<!-- 内容部分 -->
 			<div class="content">
-				<div>
+				<div class="wraper">
 					<div class="content_center">
 						<img src="img/earth-ignore.png">
-						<canvas width="300px" height="300px"></canvas>
+
 						<p>数据挖掘新价值</p>
 					</div>
 					<div class="circle1">
@@ -73,166 +73,34 @@
 					<!-- circle1 与此人circle2中的部分内容 -->
 					<div class="circle_center">
 						<!-- 技术体系 -->
-						<div class="jstx">
-							<div class="cc_1 clearfix" id="myimage-1">
-								<img src="img/star-ignore.png" class="left">
-								<a href="#">技术体系</a>
-								<div class="circle3"></div>
-								<div class="circle4"></div>
-							</div>
-							<div class="cc_2 clearfix" id="myimage-2">
-								<img src="img/star-ignore.png" class="left">
-								<a class="left" href="#">系统</a>
-							</div>
 
-							<div class="cc_3 clearfix">
-								<a href="#" class="left">安全</a>
-								<img src="img/star-ignore.png" class="left">
-
-							</div>
-							<div class="cc_4 clearfix">
-								<a href="#" class="left">工程效率</a>
-								<img src="img/star-ignore.png" class="left">
-
-							</div>
-							<div class="cc_5 clearfix">
-								<ul>
-									<li>
-										<img src="img/star-ignore.png" id="myimage">
-									</li>
-									<li>
-										<a href="#">企业智能平台</a>
-									</li>
-								</ul>
-
-
-							</div>
-						</div>
-
-						<!-- </canvas> -->
+						<canvas id="jstx" width="278" height="184">
+							<img src="img/star-ignore.png" id="img1" >
+						</canvas>
 
 						<!-- 产品特点 -->
-						<div class="cptd_1">
-							<div class="cc_one clearfix">
-								<img src="img/star-ignore.png" class="left">
-								<div class="circle3"></div>
-								<div class="circle4"></div>
-								<a href="#" class="left">产品特点</a>
-							</div>
-							<div class="cc_two clearfix">
-								<ul>
-									<li>
-										<a href="#">数据化</a>
-									</li>
-									<li>
-										<img src="img/star-ignore.png">
-									</li>
-								</ul>
-
-
-
-							</div>
-
-							<div class="cc_three clearfix">
-								<a href="#" class="left">平台化</a>
-								<img src="img/star-ignore.png" class="left">
-
-							</div>
-							<div class="cc_four clearfix">
-								<ul>
-
-									<li>
-										<img src="img/star-ignore.png">
-									</li>
-									<li>
-										<a href="#">智能化</a>
-									</li>
-								</ul>
-
-
-
-							</div>
-							<div class="cc_five clearfix">
-								<ul>
-									<li class="left">
-										<img src="img/star-ignore.png" class="left">
-									</li>
-									<li class="left">
-										<a href="#" class="left">自动化</a>
-									</li>
-								</ul>
-
-
-							</div>
-						</div>
+						<canvas id="cptd-1" width="203" height="152">
+							<img src="img/star-ignore.png" id="img1" >
+						</canvas>
 
 
 						<!-- 产品特点 -->
-						<div class="cptd">
-							<div class="cc_cp clearfix">
-								<img src="img/star-ignore.png" class="left">
-								<div class="circle3"></div>
-								<div class="circle4"></div>
-								<a href="#" class="left">产品特点</a>
-							</div>
-							<div class="cc_sjh clearfix">
-								<a href="#" class="left">数据化</a>
-								<img src="img/star-ignore.png" class="left">
-
-
-
-							</div>
-
-							<div class="cc_pth clearfix">
-								<a href="#" class="left">平台化</a>
-								<img src="img/star-ignore.png" class="left">
-
-							</div>
-							<div class="cc_znh clearfix">
-								<ul>
-									<li>
-										<img src="img/star-ignore.png">
-									</li>
-									<li>
-										<a href="#">智能化</a>
-									</li>
-								</ul>
-
-
-
-							</div>
-						</div>
+						<canvas id="cptd-2" width="223" height="174">
+							<img src="img/star-ignore.png" id="img1" >
+						</canvas>
 
 						<!-- 我们的优势 -->
-						<div class="youshi">
-							<div class="ccr_1">
-								<a href="#" class="left">我们的优势</a>
-								<img src="img/star-ignore.png" class="left">
-								<div class="circle3"></div>
-								<div class="circle4"></div>
-							</div>
-							<div class="ccr_2">
-
-								<img src="img/star-ignore.png" class="left">
-								<a href="#" class="left">智能大数据</a>
-							</div>
-							<div class="ccr_3">
-
-								<img src="img/star-ignore.png" class="left">
-								<a href="#" class="left">多元信息服务</a>
-							</div>
-							<div class="ccr_4 amt">
-
-								<img src="img/star-ignore.png" class="left">
-								<div class="circle3"></div>
-								<div class="circle4"></div>
-								<a href="#" class="left">全方位业务生态圈</a>
-							</div>
-						</div>
+						
+						<canvas id="youshi" width="306" height="166">
+							<img src="img/star-ignore.png" id="img1" >
+						</canvas>
 
 
 						<!-- 企业案例 -->
-						<div class="anli">
+						<canvas id="anli" width="296" height="162">
+							<img src="img/star-ignore.png" id="img1" >
+						</canvas>
+						<!-- <div class="anli">
 							<div class="ccr_one clearfix">
 								<a href="#" class="left">企业案例</a>
 								<img src="img/star-ignore.png" class="left">
@@ -259,7 +127,7 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</div> -->
 
 
 			<!-- 底部 -->
@@ -289,9 +157,10 @@
 				</ul>
 			</div>
 		</div>
-		
-	
+
+
 		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/canvas.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/ban.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/new_file.js" type="text/javascript" charset="utf-8"></script>
 	</body>
