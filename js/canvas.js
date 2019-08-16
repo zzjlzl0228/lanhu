@@ -53,27 +53,109 @@ window.onload = function () {
 	ctx.fillText("企业智能平台", 160, 165);
 	
 	// 画线
-	ctx.beginPath(); // 开始路径绘制
-	ctx.moveTo(176, 108); // 设置路径起点，坐标为(20,20)
-	ctx.lineTo(193, 51); // 绘制一条到(200,20)的直线
-	ctx.lineTo(103, 52);
-	ctx.closePath();
-	ctx.lineWidth = 1.0; // 设置线宽
-	ctx.strokeStyle = "#CCCCCC"; // 设置线的颜色
-	ctx.stroke(); // 进行线的着色，这时整条线才变得可见
+	function Anim(opt) { //初始化值
+	this.opt = opt;
+	}
+	Anim.prototype.draw = function() { //绘制直线的线条
+	var opt = this.opt; //设置对象的属性
+	var adx = opt.staX;
+	var ady = opt.staY;
+	var that = {
+	 x: opt.staX,
+	 y: opt.staY
+	};
+	var Time = setInterval(function() {
+	 opt.direc //判断绘制方向
+	 ?
+	 opt.len > ady ? ady += opt.num : ady -= opt.num :
+	 opt.len > adx ? adx += opt.num : adx -= opt.num;
+	 if(adx == opt.len || ady == opt.len) { //停止循环
+	 clearInterval(Time);
+	 }
+	 opt.Node.beginPath(); // 开始绘制线条
+	 opt.Node.moveTo(that.x, that.y);
+	 opt.Node.lineTo(adx, ady);
+	 opt.Node.lineWidth = opt.lw || 1;
+	 opt.Node.strokeStyle = opt.color;
+	 opt.Node.stroke();
+	}, opt.timing);
+	};
+	//direc表示判断绘制线条的方向，false表示X轴，ture表示Y轴
+	var line1 = new Anim({ //实例
+	Node: ctx,
+	color: "#ccc",
+	staX: 176,
+	staY: 108,
+	len: 51,
+	timing: 50,
+	num: 1,
+	direc: true,
+	lw: 1
+	});
+	line1.draw(); //执行绘制
+	// var line2 = new Anim({
+	// Node: ctx,
+	// color: "#ccc",
+	// staX: 176,
+	// staY: 108,
+	// len: 103,
+	// timing: 20,
+	// num: 1,
+	// direc: true,
+	// lw: 1
+	// });
 	
-	ctx.beginPath();
-	ctx.moveTo(176, 108);
-	ctx.lineTo(61, 102)
-	ctx.lineTo(122, 142)
-	ctx.closePath();
-	ctx.lineWidth = 1.0;
-	ctx.strokeStyle = "#CCCCCC";
-	ctx.stroke();
 	
-	ctx.moveTo(103, 52);
-	ctx.lineTo(61, 102);
-	ctx.stroke();
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	// ctx.beginPath(); // 开始路径绘制
+	// ctx.moveTo(176, 108); // 设置路径起点，坐标为(20,20)
+	// ctx.lineTo(193, 51); // 绘制一条到(200,20)的直线
+	// ctx.lineTo(103, 52);
+	// ctx.closePath();
+	// ctx.lineWidth = 1.0; // 设置线宽
+	// ctx.strokeStyle = "#CCCCCC"; // 设置线的颜色
+	// ctx.stroke(); // 进行线的着色，这时整条线才变得可见
+	// 
+	// ctx.beginPath();
+	// ctx.moveTo(176, 108);
+	// ctx.lineTo(61, 102)
+	// ctx.lineTo(122, 142)
+	// ctx.closePath();
+	// ctx.lineWidth = 1.0;
+	// ctx.strokeStyle = "#CCCCCC";
+	// ctx.stroke();
+	// 
+	// ctx.moveTo(103, 52);
+	// ctx.lineTo(61, 102);
+	// ctx.stroke();
 	
 	
 	// 产品特点画布1
@@ -250,6 +332,24 @@ window.onload = function () {
 	cx.lineWidth = 0.5;
 	cx.fill();
 	cx.stroke();
+// 中圆
+	cx.beginPath();
+	cx.arc(92, 30, 5, 0, 2 * Math.PI);
+	cx.closePath()
+	cx.fillStyle = '#CCCCCC';
+	cx.strokeStyle = 'rgba(148, 155, 179, 0.7)';
+	cx.lineWidth = 16;
+	cx.fill();
+	cx.stroke();
+	// 大圆
+	cx.beginPath();
+	cx.arc(92, 30, 5, 0, 2 * Math.PI);
+	cx.closePath()
+	cx.fillStyle = '#CCCCCC';
+	cx.strokeStyle = 'rgba(102, 112, 147, 0.7)';
+	cx.lineWidth = 36;
+	cx.fill();
+	cx.stroke();
 	// cx.drawImage(img1, 90, 30);
 	cx.fillText("全方位业务生态圈", 105, 35);
 	
@@ -257,20 +357,16 @@ window.onload = function () {
 	cx.moveTo(95, 100);
 	cx.lineTo(62, 143);
 	cx.lineTo(205, 82);
+	cx.lineTo(92,31);
 	cx.closePath();
-	cx.lineWidth = 1.0;
+	cx.lineWidth = 1;
 	cx.strokeStyle = "#CCCCCC";
 	cx.stroke();
 	
-	cx.beginPath();
 	cx.moveTo(95, 100);
-	cx.lineTo(92, 31);
 	cx.lineTo(205, 82);
-	cx.closePath();
-	cx.lineWidth = 1.0;
-	cx.strokeStyle = "#CCCCCC";
+	cx.lineWidth = 1;
 	cx.stroke();
-	
 	
 	// 案例 
 	var anli = document.getElementById('anli');

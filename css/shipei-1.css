@@ -829,7 +829,7 @@
 	}
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 375px) {
 	body {
 		min-width: 327px;
 	}
@@ -862,7 +862,7 @@
 
 	.content_center {
 		position: absolute;
-		top: 25%;
+		top: 10.3%;
 	}
 
 	.content_center img {
@@ -879,7 +879,7 @@
 		width: 160px;
 		height: 160px;
 		left: 52%;
-		top: 25%;
+		top: 10.3%;
 		margin-top: -80px;
 		margin-left: -80px;
 
@@ -888,7 +888,7 @@
 	.circle2 img {
 		width: 314px;
 		height: 314px;
-		top: 25%;
+		top: 10.3%;
 		margin-top: -157px;
 		margin-left: -157px;
 	}
@@ -908,197 +908,8 @@
 		transform: scale(0.8);
 	}
 
-	.jstx {
-		left: 10%;
-		top: 4%;
-		width: 55%;
-	}
-
-	.cc_1 {
-		left: 40%;
-		top: 129px;
-	}
-
-	.cc_1 .circle3 {
-		left: -5px;
-		top: -5px;
-	}
-
-	.cc_1 .circle4 {
-		left: -10px;
-		top: -10px;
-	}
-
-	.cc_2 {
-		left: 46%;
-		top: 100px;
-	}
-
-	.cc_3 {
-		left: 8%;
-		top: 96px;
-	}
-
-	.cc_4 {
-		left: -14%;
-		top: 126px;
-	}
-	.cc_5 {
-		left: 3%;
-		top: 139px;
-	}
-	.cptd_1 {
-		left: -5%;
-    top: 16%;
-		width: 55%;
-	}
-
-	.cc_one {
-		top: 112px;
-	}
-
-	.cc_one .circle3 {
-		left: -5px;
-		top: -5px;
-	}
-
-	.cc_one .circle4 {
-		left: -10px;
-		top: -10px;
-	}
-
-	.cc_two {
-		top: 63px;
-		left: 40%;
-	}
-	
-	.cc_three {
-		top: 74px;
-		left: 1%;
-	}
-
-	.cc_four {
-		top: 132px;
-		left: 14%;
-	}
-
-	.cc_five {
-		top: 144px;
-		left: 51%;
-	}
-
-	.cptd {
-		left: 38%;
-		top: 37%;
-		width: 23%;
-	}
-
-	.cc_cp {
-		margin-top: -40px;
-		margin-left: 16px;
-	}
-
-	.cc_cp .circle3 {
-		left: 14%;
-		top: -45px;
-	}
-
-	.cc_cp .circle4 {
-		left: 8%;
-		top: -50px;
-	}
-
-	.cc_sjh {
-		left: -30px;
-		top: -77px;
-	}
-
-	.cc_pth {
-		left: -10px;
-		bottom: 78px;
-	}
-
-	.cc_znh {
-		left: -29px;
-		bottom: 97px;
-	}
-
-	.youshi {
-		right: 39%;
-		top: 16%;
-		width: 31%;
-	}
-
-	.ccr_1 {
-		margin-left: 10px;
-	}
-
-	.ccr_1 .circle3 {
-		left: 85px;
-		top: -5px;
-	}
-
-	.ccr_1 .circle4 {
-		left: 80px;
-		top: -10px;
-	}
-
-	.ccr-2 {
-		right: -79px;
-		top: 38px;
-	}
-
-	.ccr_3 {
-		right: -110px;
-		top: 7px;
-	}
-
-	.ccr_4 {
-		width: 108%;
-    right: -110%;
-    top: -33px;
-	}
-	.ccr_4 .circle3 {
-		left: -4%;
-    top: -23%;
-	}
-	.ccr_4 .circle4 {
-    left: -9%;
-    top: -44%;
-	}
-	.anli {
-		right: 19%;
-		top: 35%;
-		width: 34%;
-	}
-
-	.ccr_one {
-		margin-top: -20px;
-		margin-left: 30px;
-	}
-
-	.ccr_one .circle3 {
-		left: 93px;
-		top: -25px;
-	}
-
-	.ccr_one .circle4 {
-		left: 88px;
-		top: -30px;
-	}
-
-	.ccr_two {
-		right: -21%;
-    top: -92px;
-	}
-
-	.ccr_three {
-		right: -118px;
-		top: -56px;
-	}
-
-	.ccr_three img {
-		margin-right: -20px;
+	#jstx {
+		
 	}
 
 	canvas {
